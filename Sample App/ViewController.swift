@@ -7,17 +7,26 @@
 //
 
 import UIKit
+import RxSwift
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    let disposeBag = DisposeBag()
+    let repository: SSDPRepository = SSDPRepositoryImpl()
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        repository.scan(broadcastAddress: "255.255.255.255", searchTarget: "urn:schemas-upnp-org:device:ZonePlayer:1", maxTimeSpan: 3, maxCount: 100)
+            .subscribe(onNext: { (responses) in
+            print(responses)
+        }, onError: { (error) in
+            print(error.localizedDescription)
+        }, onCompleted: {
+            print("completed")
+        }).disposed(by: disposeBag)
+        
+        
     }
 
 
