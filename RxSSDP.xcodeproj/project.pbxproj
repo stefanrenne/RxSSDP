@@ -12,6 +12,10 @@
 		F855B917205D0E1A0014936C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F855B915205D0E1A0014936C /* Main.storyboard */; };
 		F855B919205D0E1A0014936C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F855B918205D0E1A0014936C /* Assets.xcassets */; };
 		F855B91C205D0E1A0014936C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F855B91A205D0E1A0014936C /* LaunchScreen.storyboard */; };
+		F855B927205D0F340014936C /* SSDPMessageParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855B923205D0F340014936C /* SSDPMessageParser.swift */; };
+		F855B928205D0F340014936C /* SSDPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855B924205D0F340014936C /* SSDPRequest.swift */; };
+		F855B929205D0F340014936C /* SSDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855B925205D0F340014936C /* SSDPClient.swift */; };
+		F855B92A205D0F340014936C /* SSDPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855B926205D0F340014936C /* SSDPResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		F855B918205D0E1A0014936C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F855B91B205D0E1A0014936C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F855B91D205D0E1A0014936C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F855B923205D0F340014936C /* SSDPMessageParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SSDPMessageParser.swift; path = Sources/SwiftSSDPClient/Sources/SSDPMessageParser.swift; sourceTree = SOURCE_ROOT; };
+		F855B924205D0F340014936C /* SSDPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SSDPRequest.swift; path = Sources/SwiftSSDPClient/Sources/SSDPRequest.swift; sourceTree = SOURCE_ROOT; };
+		F855B925205D0F340014936C /* SSDPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SSDPClient.swift; path = Sources/SwiftSSDPClient/Sources/SSDPClient.swift; sourceTree = SOURCE_ROOT; };
+		F855B926205D0F340014936C /* SSDPResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SSDPResponse.swift; path = Sources/SwiftSSDPClient/Sources/SSDPResponse.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +52,28 @@
 				F855B918205D0E1A0014936C /* Assets.xcassets */,
 				F855B91A205D0E1A0014936C /* LaunchScreen.storyboard */,
 				F855B91D205D0E1A0014936C /* Info.plist */,
+				F855B921205D0F170014936C /* RxSSDP */,
 			);
 			path = "Sample App";
+			sourceTree = "<group>";
+		};
+		F855B921205D0F170014936C /* RxSSDP */ = {
+			isa = PBXGroup;
+			children = (
+				F855B922205D0F2B0014936C /* SwiftSSDPClient */,
+			);
+			name = RxSSDP;
+			sourceTree = "<group>";
+		};
+		F855B922205D0F2B0014936C /* SwiftSSDPClient */ = {
+			isa = PBXGroup;
+			children = (
+				F855B925205D0F340014936C /* SSDPClient.swift */,
+				F855B923205D0F340014936C /* SSDPMessageParser.swift */,
+				F855B924205D0F340014936C /* SSDPRequest.swift */,
+				F855B926205D0F340014936C /* SSDPResponse.swift */,
+			);
+			name = SwiftSSDPClient;
 			sourceTree = "<group>";
 		};
 		F8F56174205D0C8E00E28533 = {
@@ -136,8 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F855B92A205D0F340014936C /* SSDPResponse.swift in Sources */,
 				F855B914205D0E1A0014936C /* ViewController.swift in Sources */,
 				F855B912205D0E1A0014936C /* AppDelegate.swift in Sources */,
+				F855B929205D0F340014936C /* SSDPClient.swift in Sources */,
+				F855B927205D0F340014936C /* SSDPMessageParser.swift in Sources */,
+				F855B928205D0F340014936C /* SSDPRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

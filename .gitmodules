@@ -1,0 +1,4 @@
+[submodule "Sources/SwiftSSDPClient"]
+	path = Sources/SwiftSSDPClient
+	url = git@github.com:mhmiles/SwiftSSDPClient.git
+	branch = master
