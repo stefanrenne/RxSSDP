@@ -1,0 +1,6 @@
+framework module Pods_RxSSDP {
+  umbrella header "Pods-RxSSDP-umbrella.h"
+
+  export *
+  module * { export * }
+}

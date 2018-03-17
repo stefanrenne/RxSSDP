@@ -9,7 +9,7 @@
 import Foundation
 import RxSwift
 
-protocol SSDPRepository {
+public protocol SSDPRepository {
     
     func scan(searchTarget: String) -> Observable<SSDPResponse>
     func scan(broadcastAddress: String, searchTarget: String) -> Observable<SSDPResponse>

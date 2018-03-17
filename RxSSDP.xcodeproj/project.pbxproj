@@ -7,32 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C84CA8B9681CDD79B28B21A /* Pods_Sample_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EC586D0A26AA153523AEC3 /* Pods_Sample_App.framework */; };
-		F828328C205D958A00EAD768 /* SSDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8283288205D958A00EAD768 /* SSDPClient.swift */; };
-		F828328D205D958A00EAD768 /* SSDPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8283289205D958A00EAD768 /* SSDPResponse.swift */; };
-		F828328E205D958A00EAD768 /* SSDPMessageParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F828328A205D958A00EAD768 /* SSDPMessageParser.swift */; };
-		F828328F205D958A00EAD768 /* SSDPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F828328B205D958A00EAD768 /* SSDPRequest.swift */; };
+		6DA76A24336238E95AE44C48 /* Pods_RxSSDP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF31ABA0F40EFF245BFA60A /* Pods_RxSSDP.framework */; };
+		C289B3CA60280A94C50C376E /* Pods_Sample_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EC586D0A26AA153523AEC3 /* Pods_Sample_App.framework */; };
+		F8122C8E205D976300FE588A /* RxSSDP.h in Headers */ = {isa = PBXBuildFile; fileRef = F8122C8C205D976300FE588A /* RxSSDP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8122C91205D976300FE588A /* RxSSDP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8122C8A205D976300FE588A /* RxSSDP.framework */; };
+		F8122C92205D976300FE588A /* RxSSDP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8122C8A205D976300FE588A /* RxSSDP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8122CAB205D988700FE588A /* SSDPRequest+ComplexInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8122CA0205D988700FE588A /* SSDPRequest+ComplexInit.swift */; };
+		F8122CAC205D988700FE588A /* SSDPRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8122CA1205D988700FE588A /* SSDPRepository.swift */; };
+		F8122CAD205D988700FE588A /* RxGCDAsyncUdpSocketDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8122CA2205D988700FE588A /* RxGCDAsyncUdpSocketDelegateProxy.swift */; };
+		F8122CAE205D988700FE588A /* SSDPRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8122CA3205D988700FE588A /* SSDPRepositoryImpl.swift */; };
+		F8122CAF205D988700FE588A /* SSDPResponse+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8122CA4205D988700FE588A /* SSDPResponse+Equatable.swift */; };
+		F8122CB0205D988700FE588A /* SSDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8122CA6205D988700FE588A /* SSDPClient.swift */; };
+		F8122CB1205D988700FE588A /* SSDPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8122CA7205D988700FE588A /* SSDPResponse.swift */; };
+		F8122CB2205D988700FE588A /* SSDPMessageParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8122CA8205D988700FE588A /* SSDPMessageParser.swift */; };
+		F8122CB3205D988700FE588A /* SSDPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8122CA9205D988700FE588A /* SSDPRequest.swift */; };
+		F8122CB4205D988700FE588A /* RxSSDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8122CAA205D988700FE588A /* RxSSDPClient.swift */; };
 		F855B912205D0E1A0014936C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855B911205D0E1A0014936C /* AppDelegate.swift */; };
 		F855B914205D0E1A0014936C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855B913205D0E1A0014936C /* ViewController.swift */; };
 		F855B917205D0E1A0014936C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F855B915205D0E1A0014936C /* Main.storyboard */; };
 		F855B919205D0E1A0014936C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F855B918205D0E1A0014936C /* Assets.xcassets */; };
 		F855B91C205D0E1A0014936C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F855B91A205D0E1A0014936C /* LaunchScreen.storyboard */; };
-		F855B92F205D109A0014936C /* RxGCDAsyncUdpSocketDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855B92D205D109A0014936C /* RxGCDAsyncUdpSocketDelegateProxy.swift */; };
-		F855B930205D109A0014936C /* RxSSDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855B92E205D109A0014936C /* RxSSDPClient.swift */; };
-		F855B932205D13E60014936C /* SSDPRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855B931205D13E60014936C /* SSDPRepository.swift */; };
-		F855B934205D13F20014936C /* SSDPRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855B933205D13F20014936C /* SSDPRepositoryImpl.swift */; };
-		F8788155205D1BDF000509AA /* SSDPResponse+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8788154205D1BDF000509AA /* SSDPResponse+Equatable.swift */; };
-		F8788157205D1C02000509AA /* SSDPRequest+ComplexInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8788156205D1C02000509AA /* SSDPRequest+ComplexInit.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F8122C8F205D976300FE588A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8F56175205D0C8E00E28533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8122C89205D976300FE588A;
+			remoteInfo = RxSSDP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F8122C7A205D973C00FE588A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F8122C92205D976300FE588A /* RxSSDP.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		1E80694FEF8C525CF96B3C14 /* Pods-Sample App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample App/Pods-Sample App.release.xcconfig"; sourceTree = "<group>"; };
-		367902C8D00D3AFA2F49BFA3 /* Pods-Sample App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample App/Pods-Sample App.debug.xcconfig"; sourceTree = "<group>"; };
+		17C14CFDE36CCD284532DD51 /* Pods-RxSSDP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSSDP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSSDP/Pods-RxSSDP.debug.xcconfig"; sourceTree = "<group>"; };
+		7776ECF4DEB7BC4B5D94B2BC /* Pods-Sample App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample App/Pods-Sample App.release.xcconfig"; sourceTree = "<group>"; };
+		7DF31ABA0F40EFF245BFA60A /* Pods_RxSSDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSSDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8134531CAAA1E1C77DCFF273 /* Pods-Sample App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample App/Pods-Sample App.debug.xcconfig"; sourceTree = "<group>"; };
+		99B14076D51453D7303D8C6D /* Pods-RxSSDP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSSDP.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSSDP/Pods-RxSSDP.release.xcconfig"; sourceTree = "<group>"; };
 		C4EC586D0A26AA153523AEC3 /* Pods_Sample_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8283288205D958A00EAD768 /* SSDPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPClient.swift; sourceTree = "<group>"; };
-		F8283289205D958A00EAD768 /* SSDPResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPResponse.swift; sourceTree = "<group>"; };
-		F828328A205D958A00EAD768 /* SSDPMessageParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPMessageParser.swift; sourceTree = "<group>"; };
-		F828328B205D958A00EAD768 /* SSDPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPRequest.swift; sourceTree = "<group>"; };
+		F8122C8A205D976300FE588A /* RxSSDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSSDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8122C8C205D976300FE588A /* RxSSDP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxSSDP.h; sourceTree = "<group>"; };
+		F8122C8D205D976300FE588A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8122CA0205D988700FE588A /* SSDPRequest+ComplexInit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SSDPRequest+ComplexInit.swift"; sourceTree = "<group>"; };
+		F8122CA1205D988700FE588A /* SSDPRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPRepository.swift; sourceTree = "<group>"; };
+		F8122CA2205D988700FE588A /* RxGCDAsyncUdpSocketDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxGCDAsyncUdpSocketDelegateProxy.swift; sourceTree = "<group>"; };
+		F8122CA3205D988700FE588A /* SSDPRepositoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPRepositoryImpl.swift; sourceTree = "<group>"; };
+		F8122CA4205D988700FE588A /* SSDPResponse+Equatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SSDPResponse+Equatable.swift"; sourceTree = "<group>"; };
+		F8122CA6205D988700FE588A /* SSDPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPClient.swift; sourceTree = "<group>"; };
+		F8122CA7205D988700FE588A /* SSDPResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPResponse.swift; sourceTree = "<group>"; };
+		F8122CA8205D988700FE588A /* SSDPMessageParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPMessageParser.swift; sourceTree = "<group>"; };
+		F8122CA9205D988700FE588A /* SSDPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPRequest.swift; sourceTree = "<group>"; };
+		F8122CAA205D988700FE588A /* RxSSDPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSSDPClient.swift; sourceTree = "<group>"; };
 		F855B90F205D0E1A0014936C /* Sample App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F855B911205D0E1A0014936C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F855B913205D0E1A0014936C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,20 +80,23 @@
 		F855B918205D0E1A0014936C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F855B91B205D0E1A0014936C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F855B91D205D0E1A0014936C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F855B92D205D109A0014936C /* RxGCDAsyncUdpSocketDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxGCDAsyncUdpSocketDelegateProxy.swift; path = Sources/RxGCDAsyncUdpSocketDelegateProxy.swift; sourceTree = SOURCE_ROOT; };
-		F855B92E205D109A0014936C /* RxSSDPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxSSDPClient.swift; path = Sources/RxSSDPClient.swift; sourceTree = SOURCE_ROOT; };
-		F855B931205D13E60014936C /* SSDPRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSDPRepository.swift; sourceTree = "<group>"; };
-		F855B933205D13F20014936C /* SSDPRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSDPRepositoryImpl.swift; sourceTree = "<group>"; };
-		F8788154205D1BDF000509AA /* SSDPResponse+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SSDPResponse+Equatable.swift"; sourceTree = "<group>"; };
-		F8788156205D1C02000509AA /* SSDPRequest+ComplexInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SSDPRequest+ComplexInit.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F8122C86205D976300FE588A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA76A24336238E95AE44C48 /* Pods_RxSSDP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F855B90C205D0E1A0014936C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C84CA8B9681CDD79B28B21A /* Pods_Sample_App.framework in Frameworks */,
+				F8122C91205D976300FE588A /* RxSSDP.framework in Frameworks */,
+				C289B3CA60280A94C50C376E /* Pods_Sample_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				C4EC586D0A26AA153523AEC3 /* Pods_Sample_App.framework */,
+				7DF31ABA0F40EFF245BFA60A /* Pods_RxSSDP.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -71,19 +115,37 @@
 		B34B40288BAAA217C8AD7639 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				367902C8D00D3AFA2F49BFA3 /* Pods-Sample App.debug.xcconfig */,
-				1E80694FEF8C525CF96B3C14 /* Pods-Sample App.release.xcconfig */,
+				17C14CFDE36CCD284532DD51 /* Pods-RxSSDP.debug.xcconfig */,
+				99B14076D51453D7303D8C6D /* Pods-RxSSDP.release.xcconfig */,
+				8134531CAAA1E1C77DCFF273 /* Pods-Sample App.debug.xcconfig */,
+				7776ECF4DEB7BC4B5D94B2BC /* Pods-Sample App.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		F8283287205D958A00EAD768 /* SwiftSSDPClient */ = {
+		F8122C8B205D976300FE588A /* RxSSDP */ = {
 			isa = PBXGroup;
 			children = (
-				F8283288205D958A00EAD768 /* SSDPClient.swift */,
-				F8283289205D958A00EAD768 /* SSDPResponse.swift */,
-				F828328A205D958A00EAD768 /* SSDPMessageParser.swift */,
-				F828328B205D958A00EAD768 /* SSDPRequest.swift */,
+				F8122C8C205D976300FE588A /* RxSSDP.h */,
+				F8122C8D205D976300FE588A /* Info.plist */,
+				F8122CA2205D988700FE588A /* RxGCDAsyncUdpSocketDelegateProxy.swift */,
+				F8122CAA205D988700FE588A /* RxSSDPClient.swift */,
+				F8122CA1205D988700FE588A /* SSDPRepository.swift */,
+				F8122CA3205D988700FE588A /* SSDPRepositoryImpl.swift */,
+				F8122CA0205D988700FE588A /* SSDPRequest+ComplexInit.swift */,
+				F8122CA4205D988700FE588A /* SSDPResponse+Equatable.swift */,
+				F8122CA5205D988700FE588A /* SwiftSSDPClient */,
+			);
+			path = RxSSDP;
+			sourceTree = "<group>";
+		};
+		F8122CA5205D988700FE588A /* SwiftSSDPClient */ = {
+			isa = PBXGroup;
+			children = (
+				F8122CA6205D988700FE588A /* SSDPClient.swift */,
+				F8122CA7205D988700FE588A /* SSDPResponse.swift */,
+				F8122CA8205D988700FE588A /* SSDPMessageParser.swift */,
+				F8122CA9205D988700FE588A /* SSDPRequest.swift */,
 			);
 			path = SwiftSSDPClient;
 			sourceTree = "<group>";
@@ -97,30 +159,15 @@
 				F855B918205D0E1A0014936C /* Assets.xcassets */,
 				F855B91A205D0E1A0014936C /* LaunchScreen.storyboard */,
 				F855B91D205D0E1A0014936C /* Info.plist */,
-				F855B921205D0F170014936C /* RxSSDP */,
 			);
 			path = "Sample App";
-			sourceTree = "<group>";
-		};
-		F855B921205D0F170014936C /* RxSSDP */ = {
-			isa = PBXGroup;
-			children = (
-				F8283287205D958A00EAD768 /* SwiftSSDPClient */,
-				F855B92D205D109A0014936C /* RxGCDAsyncUdpSocketDelegateProxy.swift */,
-				F855B92E205D109A0014936C /* RxSSDPClient.swift */,
-				F855B931205D13E60014936C /* SSDPRepository.swift */,
-				F855B933205D13F20014936C /* SSDPRepositoryImpl.swift */,
-				F8788154205D1BDF000509AA /* SSDPResponse+Equatable.swift */,
-				F8788156205D1C02000509AA /* SSDPRequest+ComplexInit.swift */,
-			);
-			name = RxSSDP;
-			path = ../Sources;
 			sourceTree = "<group>";
 		};
 		F8F56174205D0C8E00E28533 = {
 			isa = PBXGroup;
 			children = (
 				F855B910205D0E1A0014936C /* Sample App */,
+				F8122C8B205D976300FE588A /* RxSSDP */,
 				F8F5617E205D0C8E00E28533 /* Products */,
 				B34B40288BAAA217C8AD7639 /* Pods */,
 				03FA03B3528D08C375D62514 /* Frameworks */,
@@ -131,27 +178,61 @@
 			isa = PBXGroup;
 			children = (
 				F855B90F205D0E1A0014936C /* Sample App.app */,
+				F8122C8A205D976300FE588A /* RxSSDP.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		F8122C87205D976300FE588A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8122C8E205D976300FE588A /* RxSSDP.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		F855B90E205D0E1A0014936C /* Sample App */ = {
+		F8122C89205D976300FE588A /* RxSSDP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F855B91E205D0E1A0014936C /* Build configuration list for PBXNativeTarget "Sample App" */;
+			buildConfigurationList = F8122C93205D976300FE588A /* Build configuration list for PBXNativeTarget "RxSSDP" */;
 			buildPhases = (
-				2E732C6711EBEA12A0161536 /* [CP] Check Pods Manifest.lock */,
-				F855B90B205D0E1A0014936C /* Sources */,
-				F855B90C205D0E1A0014936C /* Frameworks */,
-				F855B90D205D0E1A0014936C /* Resources */,
-				23763A2C98C273762493E3EE /* [CP] Embed Pods Frameworks */,
-				CD25F0A6EBBB202449F2568C /* [CP] Copy Pods Resources */,
+				B3C3687BFFBBDBC8757DF111 /* [CP] Check Pods Manifest.lock */,
+				F8122C85205D976300FE588A /* Sources */,
+				F8122C86205D976300FE588A /* Frameworks */,
+				F8122C87205D976300FE588A /* Headers */,
+				F8122C88205D976300FE588A /* Resources */,
+				7D93F1D2F85DCFD797417784 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = RxSSDP;
+			productName = RxSSDP;
+			productReference = F8122C8A205D976300FE588A /* RxSSDP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F855B90E205D0E1A0014936C /* Sample App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F855B91E205D0E1A0014936C /* Build configuration list for PBXNativeTarget "Sample App" */;
+			buildPhases = (
+				7B700653B8784BA3603E89B8 /* [CP] Check Pods Manifest.lock */,
+				F855B90B205D0E1A0014936C /* Sources */,
+				F855B90C205D0E1A0014936C /* Frameworks */,
+				F855B90D205D0E1A0014936C /* Resources */,
+				F8122C7A205D973C00FE588A /* Embed Frameworks */,
+				3707F7BF73DE9925D4324F59 /* [CP] Embed Pods Frameworks */,
+				F18A07C3BE51BAB86E9F1A21 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8122C90205D976300FE588A /* PBXTargetDependency */,
 			);
 			name = "Sample App";
 			productName = "Sample App";
@@ -168,6 +249,11 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Uberweb;
 				TargetAttributes = {
+					F8122C89205D976300FE588A = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
 					F855B90E205D0E1A0014936C = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -188,11 +274,19 @@
 			projectRoot = "";
 			targets = (
 				F855B90E205D0E1A0014936C /* Sample App */,
+				F8122C89205D976300FE588A /* RxSSDP */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F8122C88205D976300FE588A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F855B90D205D0E1A0014936C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -206,29 +300,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		23763A2C98C273762493E3EE /* [CP] Embed Pods Frameworks */ = {
+		3707F7BF73DE9925D4324F59 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Sample App/Pods-Sample App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sample App/Pods-Sample App-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2E732C6711EBEA12A0161536 /* [CP] Check Pods Manifest.lock */ = {
+		7B700653B8784BA3603E89B8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,7 +340,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CD25F0A6EBBB202449F2568C /* [CP] Copy Pods Resources */ = {
+		7D93F1D2F85DCFD797417784 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSSDP/Pods-RxSSDP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3C3687BFFBBDBC8757DF111 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSSDP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F18A07C3BE51BAB86E9F1A21 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,26 +391,41 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F8122C85205D976300FE588A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8122CB1205D988700FE588A /* SSDPResponse.swift in Sources */,
+				F8122CB0205D988700FE588A /* SSDPClient.swift in Sources */,
+				F8122CAD205D988700FE588A /* RxGCDAsyncUdpSocketDelegateProxy.swift in Sources */,
+				F8122CAB205D988700FE588A /* SSDPRequest+ComplexInit.swift in Sources */,
+				F8122CB4205D988700FE588A /* RxSSDPClient.swift in Sources */,
+				F8122CAC205D988700FE588A /* SSDPRepository.swift in Sources */,
+				F8122CB3205D988700FE588A /* SSDPRequest.swift in Sources */,
+				F8122CAE205D988700FE588A /* SSDPRepositoryImpl.swift in Sources */,
+				F8122CB2205D988700FE588A /* SSDPMessageParser.swift in Sources */,
+				F8122CAF205D988700FE588A /* SSDPResponse+Equatable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F855B90B205D0E1A0014936C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F855B930205D109A0014936C /* RxSSDPClient.swift in Sources */,
-				F8788155205D1BDF000509AA /* SSDPResponse+Equatable.swift in Sources */,
-				F8788157205D1C02000509AA /* SSDPRequest+ComplexInit.swift in Sources */,
-				F828328C205D958A00EAD768 /* SSDPClient.swift in Sources */,
 				F855B914205D0E1A0014936C /* ViewController.swift in Sources */,
 				F855B912205D0E1A0014936C /* AppDelegate.swift in Sources */,
-				F828328D205D958A00EAD768 /* SSDPResponse.swift in Sources */,
-				F828328E205D958A00EAD768 /* SSDPMessageParser.swift in Sources */,
-				F855B92F205D109A0014936C /* RxGCDAsyncUdpSocketDelegateProxy.swift in Sources */,
-				F855B934205D13F20014936C /* SSDPRepositoryImpl.swift in Sources */,
-				F855B932205D13E60014936C /* SSDPRepository.swift in Sources */,
-				F828328F205D958A00EAD768 /* SSDPRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8122C90205D976300FE588A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8122C89205D976300FE588A /* RxSSDP */;
+			targetProxy = F8122C8F205D976300FE588A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F855B915205D0E1A0014936C /* Main.storyboard */ = {
@@ -305,10 +447,66 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F8122C94205D976300FE588A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17C14CFDE36CCD284532DD51 /* Pods-RxSSDP.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RxSSDP/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uberweb.RxSSDP;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8122C95205D976300FE588A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99B14076D51453D7303D8C6D /* Pods-RxSSDP.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RxSSDP/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uberweb.RxSSDP;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		F855B91F205D0E1A0014936C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 367902C8D00D3AFA2F49BFA3 /* Pods-Sample App.debug.xcconfig */;
+			baseConfigurationReference = 8134531CAAA1E1C77DCFF273 /* Pods-Sample App.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -325,8 +523,9 @@
 		};
 		F855B920205D0E1A0014936C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E80694FEF8C525CF96B3C14 /* Pods-Sample App.release.xcconfig */;
+			baseConfigurationReference = 7776ECF4DEB7BC4B5D94B2BC /* Pods-Sample App.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +648,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F8122C93205D976300FE588A /* Build configuration list for PBXNativeTarget "RxSSDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8122C94205D976300FE588A /* Debug */,
+				F8122C95205D976300FE588A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F855B91E205D0E1A0014936C /* Build configuration list for PBXNativeTarget "Sample App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

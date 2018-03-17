@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.source                 = { :git => 'https://github.com/stefanrenne/RxSSDP.git', :tag => '4.0.0' }
   spec.ios.deployment_target  = '9.0'
   spec.requires_arc           = true
-  spec.source_files           = 'Sources/*.swift', 'Sources/SwiftSSDPClient/*.swift'
+  spec.source_files           = 'RxSSDP/*.swift', 'RxSSDP/SwiftSSDPClient/*.swift'
   spec.framework              = 'SystemConfiguration'
   spec.dependency             'RxSwift', '~> 4.0'
   spec.dependency             'RxCocoa', '~> 4.0'

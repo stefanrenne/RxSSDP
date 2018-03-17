@@ -11,6 +11,8 @@ import RxSwift
 
 open class SSDPRepositoryImpl: SSDPRepository {
     
+    public init() { }
+    
     public func scan(searchTarget: String) -> Observable<SSDPResponse> {
         return scan(broadcastAddress: "239.255.255.250", searchTarget: searchTarget)
     }
