@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5C84CA8B9681CDD79B28B21A /* Pods_Sample_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EC586D0A26AA153523AEC3 /* Pods_Sample_App.framework */; };
+		F828328C205D958A00EAD768 /* SSDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8283288205D958A00EAD768 /* SSDPClient.swift */; };
+		F828328D205D958A00EAD768 /* SSDPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8283289205D958A00EAD768 /* SSDPResponse.swift */; };
+		F828328E205D958A00EAD768 /* SSDPMessageParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F828328A205D958A00EAD768 /* SSDPMessageParser.swift */; };
+		F828328F205D958A00EAD768 /* SSDPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F828328B205D958A00EAD768 /* SSDPRequest.swift */; };
 		F855B912205D0E1A0014936C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855B911205D0E1A0014936C /* AppDelegate.swift */; };
 		F855B914205D0E1A0014936C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855B913205D0E1A0014936C /* ViewController.swift */; };
 		F855B917205D0E1A0014936C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F855B915205D0E1A0014936C /* Main.storyboard */; };
@@ -19,16 +23,16 @@
 		F855B934205D13F20014936C /* SSDPRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855B933205D13F20014936C /* SSDPRepositoryImpl.swift */; };
 		F8788155205D1BDF000509AA /* SSDPResponse+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8788154205D1BDF000509AA /* SSDPResponse+Equatable.swift */; };
 		F8788157205D1C02000509AA /* SSDPRequest+ComplexInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8788156205D1C02000509AA /* SSDPRequest+ComplexInit.swift */; };
-		F87884E4205D77EE000509AA /* SSDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8788408205D77EE000509AA /* SSDPClient.swift */; };
-		F87884E5205D77EE000509AA /* SSDPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8788409205D77EE000509AA /* SSDPResponse.swift */; };
-		F87884E6205D77EE000509AA /* SSDPMessageParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F878840A205D77EE000509AA /* SSDPMessageParser.swift */; };
-		F87884E7205D77EE000509AA /* SSDPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F878840B205D77EE000509AA /* SSDPRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E80694FEF8C525CF96B3C14 /* Pods-Sample App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample App/Pods-Sample App.release.xcconfig"; sourceTree = "<group>"; };
 		367902C8D00D3AFA2F49BFA3 /* Pods-Sample App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample App/Pods-Sample App.debug.xcconfig"; sourceTree = "<group>"; };
 		C4EC586D0A26AA153523AEC3 /* Pods_Sample_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8283288205D958A00EAD768 /* SSDPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPClient.swift; sourceTree = "<group>"; };
+		F8283289205D958A00EAD768 /* SSDPResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPResponse.swift; sourceTree = "<group>"; };
+		F828328A205D958A00EAD768 /* SSDPMessageParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPMessageParser.swift; sourceTree = "<group>"; };
+		F828328B205D958A00EAD768 /* SSDPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPRequest.swift; sourceTree = "<group>"; };
 		F855B90F205D0E1A0014936C /* Sample App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F855B911205D0E1A0014936C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F855B913205D0E1A0014936C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,10 +46,6 @@
 		F855B933205D13F20014936C /* SSDPRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSDPRepositoryImpl.swift; sourceTree = "<group>"; };
 		F8788154205D1BDF000509AA /* SSDPResponse+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SSDPResponse+Equatable.swift"; sourceTree = "<group>"; };
 		F8788156205D1C02000509AA /* SSDPRequest+ComplexInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SSDPRequest+ComplexInit.swift"; sourceTree = "<group>"; };
-		F8788408205D77EE000509AA /* SSDPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPClient.swift; sourceTree = "<group>"; };
-		F8788409205D77EE000509AA /* SSDPResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPResponse.swift; sourceTree = "<group>"; };
-		F878840A205D77EE000509AA /* SSDPMessageParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPMessageParser.swift; sourceTree = "<group>"; };
-		F878840B205D77EE000509AA /* SSDPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +77,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F8283287205D958A00EAD768 /* SwiftSSDPClient */ = {
+			isa = PBXGroup;
+			children = (
+				F8283288205D958A00EAD768 /* SSDPClient.swift */,
+				F8283289205D958A00EAD768 /* SSDPResponse.swift */,
+				F828328A205D958A00EAD768 /* SSDPMessageParser.swift */,
+				F828328B205D958A00EAD768 /* SSDPRequest.swift */,
+			);
+			path = SwiftSSDPClient;
+			sourceTree = "<group>";
+		};
 		F855B910205D0E1A0014936C /* Sample App */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,7 +105,7 @@
 		F855B921205D0F170014936C /* RxSSDP */ = {
 			isa = PBXGroup;
 			children = (
-				F8788321205D77EE000509AA /* SwiftSSDPClient */,
+				F8283287205D958A00EAD768 /* SwiftSSDPClient */,
 				F855B92D205D109A0014936C /* RxGCDAsyncUdpSocketDelegateProxy.swift */,
 				F855B92E205D109A0014936C /* RxSSDPClient.swift */,
 				F855B931205D13E60014936C /* SSDPRepository.swift */,
@@ -104,17 +115,6 @@
 			);
 			name = RxSSDP;
 			path = ../Sources;
-			sourceTree = "<group>";
-		};
-		F8788321205D77EE000509AA /* SwiftSSDPClient */ = {
-			isa = PBXGroup;
-			children = (
-				F8788408205D77EE000509AA /* SSDPClient.swift */,
-				F8788409205D77EE000509AA /* SSDPResponse.swift */,
-				F878840A205D77EE000509AA /* SSDPMessageParser.swift */,
-				F878840B205D77EE000509AA /* SSDPRequest.swift */,
-			);
-			path = SwiftSSDPClient;
 			sourceTree = "<group>";
 		};
 		F8F56174205D0C8E00E28533 = {
@@ -269,17 +269,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F855B930205D109A0014936C /* RxSSDPClient.swift in Sources */,
-				F87884E6205D77EE000509AA /* SSDPMessageParser.swift in Sources */,
-				F87884E7205D77EE000509AA /* SSDPRequest.swift in Sources */,
-				F87884E4205D77EE000509AA /* SSDPClient.swift in Sources */,
 				F8788155205D1BDF000509AA /* SSDPResponse+Equatable.swift in Sources */,
 				F8788157205D1C02000509AA /* SSDPRequest+ComplexInit.swift in Sources */,
+				F828328C205D958A00EAD768 /* SSDPClient.swift in Sources */,
 				F855B914205D0E1A0014936C /* ViewController.swift in Sources */,
 				F855B912205D0E1A0014936C /* AppDelegate.swift in Sources */,
-				F87884E5205D77EE000509AA /* SSDPResponse.swift in Sources */,
+				F828328D205D958A00EAD768 /* SSDPResponse.swift in Sources */,
+				F828328E205D958A00EAD768 /* SSDPMessageParser.swift in Sources */,
 				F855B92F205D109A0014936C /* RxGCDAsyncUdpSocketDelegateProxy.swift in Sources */,
 				F855B934205D13F20014936C /* SSDPRepositoryImpl.swift in Sources */,
 				F855B932205D13E60014936C /* SSDPRepository.swift in Sources */,
+				F828328F205D958A00EAD768 /* SSDPRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
