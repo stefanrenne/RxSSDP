@@ -19,7 +19,9 @@ repository.scan(broadcastAddress: "255.255.255.255", searchTarget: "urn:schemas-
 
 ## Cocoapods
 
-Soon
+```
+pod 'RxSSDP', '~> 4.0'
+```
 
 
 ## Testing
