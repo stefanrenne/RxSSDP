@@ -22,7 +22,6 @@ class ViewController: UIViewController {
         
         repository
             .scan(broadcastAddress: "255.255.255.255", searchTarget: "urn:schemas-upnp-org:device:ZonePlayer:1")
-            .take(1)
             .map({ (responses) -> String in
                 return responses
                     .compactMap({ (response) -> String in

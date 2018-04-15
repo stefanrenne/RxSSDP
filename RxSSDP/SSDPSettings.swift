@@ -17,20 +17,20 @@ open class SSDPSettings {
     /**
      * singleton variable to access all RxSonosLib settings
      */
-    static let shared: SSDPSettings = SSDPSettings()
+    public static let shared: SSDPSettings = SSDPSettings()
     
     /**
      * Maximum of SSDP devices to be returned in the search timespan
      */
-    let maxBufferdItems: Int = 100
+    public let maxBufferdItems: Int = 100
     
     /**
      * Maximum time the SSDP devices are bufferd
      */
-    let maxBufferdTime: RxTimeInterval = 6
+    public let maxBufferdTime: RxTimeInterval = 6
     
     /**
      * scheduler on which the search is being performed
      */
-    let scheduler: SchedulerType = SerialDispatchQueueScheduler(qos: .userInitiated)
+    public let scheduler: SchedulerType = SerialDispatchQueueScheduler(qos: .userInitiated)
 }

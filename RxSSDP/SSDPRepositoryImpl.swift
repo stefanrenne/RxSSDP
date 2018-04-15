@@ -17,6 +17,7 @@ open class SSDPRepositoryImpl: SSDPRepository {
         return RxSSDPClient(broadcastAddress: broadcastAddress, searchTarget: searchTarget)
             .discover()
             .buffer(timeSpan: SSDPSettings.shared.maxBufferdTime, count: SSDPSettings.shared.maxBufferdItems, scheduler: SSDPSettings.shared.scheduler)
+            .take(1)
     }
     
     public func scan(broadcastAddresses: [String], searchTarget: String) -> Observable<[SSDPResponse]> {
