@@ -27,6 +27,7 @@
 		F855B917205D0E1A0014936C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F855B915205D0E1A0014936C /* Main.storyboard */; };
 		F855B919205D0E1A0014936C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F855B918205D0E1A0014936C /* Assets.xcassets */; };
 		F855B91C205D0E1A0014936C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F855B91A205D0E1A0014936C /* LaunchScreen.storyboard */; };
+		F8B0D8B12083A5210072BAE0 /* SSDPSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B0D8B02083A5210072BAE0 /* SSDPSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		F855B918205D0E1A0014936C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F855B91B205D0E1A0014936C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F855B91D205D0E1A0014936C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B0D8B02083A5210072BAE0 /* SSDPSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSDPSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				F8122CA3205D988700FE588A /* SSDPRepositoryImpl.swift */,
 				F8122CA0205D988700FE588A /* SSDPRequest+ComplexInit.swift */,
 				F8122CA4205D988700FE588A /* SSDPResponse+Equatable.swift */,
+				F8B0D8B02083A5210072BAE0 /* SSDPSettings.swift */,
 				F8122CA5205D988700FE588A /* SwiftSSDPClient */,
 			);
 			path = RxSSDP;
@@ -399,6 +402,7 @@
 				F8122CB1205D988700FE588A /* SSDPResponse.swift in Sources */,
 				F8122CB0205D988700FE588A /* SSDPClient.swift in Sources */,
 				F8122CAD205D988700FE588A /* RxGCDAsyncUdpSocketDelegateProxy.swift in Sources */,
+				F8B0D8B12083A5210072BAE0 /* SSDPSettings.swift in Sources */,
 				F8122CAB205D988700FE588A /* SSDPRequest+ComplexInit.swift in Sources */,
 				F8122CB4205D988700FE588A /* RxSSDPClient.swift in Sources */,
 				F8122CAC205D988700FE588A /* SSDPRepository.swift in Sources */,
