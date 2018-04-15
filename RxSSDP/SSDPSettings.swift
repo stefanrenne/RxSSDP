@@ -22,15 +22,15 @@ open class SSDPSettings {
     /**
      * Maximum of SSDP devices to be returned in the search timespan
      */
-    public let maxBufferdItems: Int = 100
+    public var maxBufferdItems: Int = 100
     
     /**
      * Maximum time the SSDP devices are bufferd
      */
-    public let maxBufferdTime: RxTimeInterval = 6
+    public var maxBufferTime: RxTimeInterval = 6
     
     /**
      * scheduler on which the search is being performed
      */
-    public let scheduler: SchedulerType = SerialDispatchQueueScheduler(qos: .userInitiated)
+    public var scheduler: SchedulerType = SerialDispatchQueueScheduler(qos: .userInitiated)
 }
