@@ -1,19 +1,25 @@
 PODS:
   - CocoaAsyncSocket (7.6.3)
-  - RxCocoa (4.1.2):
+  - RxCocoa (4.2.0):
     - RxSwift (~> 4.0)
-  - RxSwift (4.1.2)
+  - RxSwift (4.2.0)
 
 DEPENDENCIES:
   - CocoaAsyncSocket (~> 7.6)
-  - RxCocoa (~> 4.0)
-  - RxSwift (~> 4.0)
+  - RxCocoa (~> 4.2)
+  - RxSwift (~> 4.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaAsyncSocket
+    - RxCocoa
+    - RxSwift
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
-  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
-  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
 
-PODFILE CHECKSUM: d0ceaf00367e71903ff559a56512f8a83e100b79
+PODFILE CHECKSUM: b50d7286ea52f598a33cef0eb35d1eb120ba6804
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3
