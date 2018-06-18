@@ -31,7 +31,7 @@ Inspect [SSDPSettings.swift](RxSSDP/SSDPSettings.swift), this class contains all
 ## Cocoapods
 
 ```
-pod 'RxSSDP', '~> 4.2'
+pod 'RxSSDP', '~> 4.1'
 ```
 
 
