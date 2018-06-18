@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                   = 'RxSSDP'
-  spec.version                = '4.1.6'
+  spec.version                = '4.1.7'
   spec.license                = { :type => 'Apache-2.0' }
   spec.homepage               = 'https://github.com/stefanrenne/RxSSDP'
   spec.authors                = { 'Stefan Renne' => 'info@stefanrenne.nl' }

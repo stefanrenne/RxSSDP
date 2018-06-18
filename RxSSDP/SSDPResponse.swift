@@ -1,6 +1,6 @@
 //
 //  SSDPResponse.swift
-//  ssdp
+//  RxSSDP
 //
 //  Created by Stefan Renne on 18/06/2018.
 //  Copyright © 2018 Uberweb. All rights reserved.
@@ -8,11 +8,20 @@
 
 import Foundation
 
-open class SSDPResponse {
+open class SSDPResponse: Codable {
     
     public let data: [String: String]
     init(data: [String: String]) {
         self.data = data
+    }
+    
+    required public init?(coder aDecoder: NSCoder) {
+        guard let data = aDecoder.decodeObject(forKey: "data") as? [String: String] else { return nil }
+        self.data = data
+    }
+    
+    func encode(with aCoder: NSCoder) {
+        aCoder.encode(self.data, forKey: "data")
     }
 }
 
