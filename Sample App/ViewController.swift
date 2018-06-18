@@ -21,11 +21,11 @@ class ViewController: UIViewController {
         super.viewDidAppear(animated)
         
         repository
-            .scan(broadcastAddress: "255.255.255.255", searchTarget: "urn:schemas-upnp-org:device:ZonePlayer:1")
+            .scan(searchTarget: "urn:schemas-upnp-org:device:ZonePlayer:1")
             .map({ (responses) -> String in
                 return responses
                     .compactMap({ (response) -> String in
-                        return response.description
+                        return response.data.description
                     })
                     .joined(separator: "\n\n====================\n\n")
             })

@@ -11,8 +11,6 @@ import RxSwift
 
 public protocol SSDPRepository {
     
-    func scan(broadcastAddress: String, searchTarget: String) -> Observable<[SSDPResponse]>
-    
-    func scan(broadcastAddresses: [String], searchTarget: String) -> Observable<[SSDPResponse]>
+    func scan(searchTarget: String) -> Observable<[SSDPResponse]>
     
 }
