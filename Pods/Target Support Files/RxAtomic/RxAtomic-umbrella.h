@@ -10,7 +10,8 @@
 #endif
 #endif
 
+#import "RxAtomic.h"
 
-FOUNDATION_EXPORT double RxSwiftVersionNumber;
-FOUNDATION_EXPORT const unsigned char RxSwiftVersionString[];
+FOUNDATION_EXPORT double RxAtomicVersionNumber;
+FOUNDATION_EXPORT const unsigned char RxAtomicVersionString[];
 
