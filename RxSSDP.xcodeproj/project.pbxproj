@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5DE112D10EF6CC70B2D09A43 /* Pods_Sample_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEBBED0633300FF6432303DB /* Pods_Sample_App.framework */; };
 		A5D82BD76332A9A0B0A8A9C8 /* Pods_RxSSDP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC310FA945FF6DE3A9C87FE9 /* Pods_RxSSDP.framework */; };
+		F808EF0121DCA35B00382380 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = F808EF0021DCA35B00382380 /* .swiftlint.yml */; };
 		F8122C8E205D976300FE588A /* RxSSDP.h in Headers */ = {isa = PBXBuildFile; fileRef = F8122C8C205D976300FE588A /* RxSSDP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8122C91205D976300FE588A /* RxSSDP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8122C8A205D976300FE588A /* RxSSDP.framework */; };
 		F8122C92205D976300FE588A /* RxSSDP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8122C8A205D976300FE588A /* RxSSDP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -56,6 +57,7 @@
 		6C1C2CC9A802930718FB0643 /* Pods-RxSSDP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSSDP.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSSDP/Pods-RxSSDP.release.xcconfig"; sourceTree = "<group>"; };
 		D5AB1D5473D1382A63A109B6 /* Pods-RxSSDP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSSDP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSSDP/Pods-RxSSDP.debug.xcconfig"; sourceTree = "<group>"; };
 		DEBBED0633300FF6432303DB /* Pods_Sample_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F808EF0021DCA35B00382380 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		F8122C8A205D976300FE588A /* RxSSDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSSDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8122C8C205D976300FE588A /* RxSSDP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxSSDP.h; sourceTree = "<group>"; };
 		F8122C8D205D976300FE588A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 		F8F56174205D0C8E00E28533 = {
 			isa = PBXGroup;
 			children = (
+				F808EF0021DCA35B00382380 /* .swiftlint.yml */,
 				F855B910205D0E1A0014936C /* Sample App */,
 				F8122C8B205D976300FE588A /* RxSSDP */,
 				F8F5617E205D0C8E00E28533 /* Products */,
@@ -189,6 +192,7 @@
 				F8122C86205D976300FE588A /* Frameworks */,
 				F8122C87205D976300FE588A /* Headers */,
 				F8122C88205D976300FE588A /* Resources */,
+				F808EEFF21DCA29B00382380 /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -266,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F808EF0121DCA35B00382380 /* .swiftlint.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,13 +295,11 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Sample App/Pods-Sample App-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +342,24 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		F808EEFF21DCA29B00382380 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which ${PODS_ROOT}/SwiftLint/swiftlint >/dev/null; then\n${PODS_ROOT}/SwiftLint/swiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

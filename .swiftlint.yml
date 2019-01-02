@@ -1,0 +1,12 @@
+disabled_rules: # rule identifiers to exclude from running
+- force_try
+- trailing_whitespace
+- todo
+- line_length
+- identifier_name
+- type_name
+
+included: # paths to include during linting. `--path` is ignored if present.
+- RxSSDP
+
+reporter: "xcode" # reporter type (xcode, json, csv, checkstyle, junit, html, emoji, sonarqube, markdown)

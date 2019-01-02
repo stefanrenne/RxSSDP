@@ -9,7 +9,6 @@
 import UIKit
 import RxSSDP
 import RxSwift
-import RxCocoa
 
 class ViewController: UIViewController {
     
@@ -22,15 +21,26 @@ class ViewController: UIViewController {
         
         repository
             .scan(searchTarget: "urn:schemas-upnp-org:device:ZonePlayer:1")
-            .map({ (responses) -> String in
-                return responses
-                    .compactMap({ (response) -> String in
-                        return response.data.description
-                    })
-                    .joined(separator: "\n\n====================\n\n")
+            .subscribeOn(ConcurrentDispatchQueueScheduler(qos: .default))
+            .observeOn(MainScheduler.instance)
+            .subscribe(onSuccess: { [weak self] (responses) in
+                self?.textView.text = responses.mapToString()
+            }, onError: { [weak self] (error) in
+                self?.textView.text = "ERROR: \(error.localizedDescription)"
             })
-            .bind(to: textView.rx.text)
             .disposed(by: disposeBag)
+    }
+}
+
+extension Array where Element == SSDPResponse {
+    func mapToString() -> String {
+        guard count > 0 else {
+            return "No Responses"
+        }
+        
+        return compactMap({ (response) -> String in
+            return response.data.description
+        }).joined(separator: "\n\n====================\n\n")
     }
 }
 

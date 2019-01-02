@@ -5,7 +5,7 @@ target 'Sample App' do
   use_frameworks!
 
   pod 'RxSwift', '~> 4.4'
-  pod 'RxCocoa', '~> 4.4'
+  pod 'SwiftLint'
   
 end
 
