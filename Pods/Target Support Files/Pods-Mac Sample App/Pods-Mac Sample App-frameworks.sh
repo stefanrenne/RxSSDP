@@ -143,14 +143,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/RxAtomic-iOS/RxAtomic.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/RxSwift-iOS/RxSwift.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/RxSSDP-iOS/RxSSDP.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxAtomic-macOS/RxAtomic.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxSwift-macOS/RxSwift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxSSDP-macOS/RxSSDP.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/RxAtomic-iOS/RxAtomic.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/RxSwift-iOS/RxSwift.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/RxSSDP-iOS/RxSSDP.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxAtomic-macOS/RxAtomic.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxSwift-macOS/RxSwift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxSSDP-macOS/RxSSDP.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

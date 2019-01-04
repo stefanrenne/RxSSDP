@@ -1,5 +1,5 @@
 framework module RxSSDP {
-  umbrella header "RxSSDP-umbrella.h"
+  umbrella header "RxSSDP-macOS-umbrella.h"
 
   export *
   module * { export * }

@@ -23,6 +23,10 @@ repository.scan(searchTarget: "urn:schemas-upnp-org:device:ZonePlayer:1")
 
 3) Subscribe for changes
 
+4) MacOS Apps - when you are using this lib in a MacOS app, then add the following entries to your entitlements file:
+- com.apple.security.network.client
+- com.apple.security.network.server
+
 
 ## Modify settings
     

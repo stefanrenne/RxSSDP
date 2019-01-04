@@ -1,32 +1,32 @@
 //
 //  ViewController.swift
-//  Sample App
+//  Mac Demo App
 //
-//  Created by Stefan Renne on 17/03/2018.
-//  Copyright © 2018 Uberweb. All rights reserved.
+//  Created by Stefan Renne on 04/01/2019.
+//  Copyright © 2019 Uberweb. All rights reserved.
 //
 
-import UIKit
+import Cocoa
 import RxSSDP
 import RxSwift
 
-class ViewController: UIViewController {
-    
+class ViewController: NSViewController {
+
     let disposeBag = DisposeBag()
     let repository: SSDPRepository = SSDPRepositoryImpl()
-    @IBOutlet var textView: UITextView!
+    @IBOutlet var textView: NSTextView!
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+    override func viewDidAppear() {
+        super.viewDidAppear()
         
         repository
             .scan(searchTarget: "urn:schemas-upnp-org:device:ZonePlayer:1")
             .subscribeOn(ConcurrentDispatchQueueScheduler(qos: .default))
             .observeOn(MainScheduler.instance)
             .subscribe(onSuccess: { [weak self] (responses) in
-                self?.textView.text = responses.mapToString()
+                self?.textView.string = responses.mapToString()
             }, onError: { [weak self] (error) in
-                self?.textView.text = "ERROR: \(error.localizedDescription)"
+                self?.textView.string = "ERROR: \(error.localizedDescription)"
             })
             .disposed(by: disposeBag)
     }
