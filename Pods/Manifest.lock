@@ -1,10 +1,13 @@
 PODS:
   - RxAtomic (4.4.0)
+  - RxSSDP (4.2.1):
+    - RxSwift (~> 4.4)
   - RxSwift (4.4.0):
     - RxAtomic (~> 4.4)
   - SwiftLint (0.29.2)
 
 DEPENDENCIES:
+  - RxSSDP (from `.`)
   - RxSwift (~> 4.4)
   - SwiftLint
 
@@ -14,11 +17,16 @@ SPEC REPOS:
     - RxSwift
     - SwiftLint
 
+EXTERNAL SOURCES:
+  RxSSDP:
+    :path: "."
+
 SPEC CHECKSUMS:
   RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxSSDP: 3bf6ea64ea2f50fc90196bd0fee10612ae180321
   RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
   SwiftLint: 47df60bdea6e7e902b193b6596db8683aafd86a3
 
-PODFILE CHECKSUM: 57371603dbf295dbaa90801840ea9c56eed806a5
+PODFILE CHECKSUM: da4bac3558fc676e601675e4582ac5fe2e852985
 
 COCOAPODS: 1.5.3
