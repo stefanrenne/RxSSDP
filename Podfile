@@ -25,3 +25,11 @@ target 'Mac Sample App' do
   pod 'SwiftLint'
   pod 'RxSSDP', :path => '.'
 end
+
+target 'TV Sample App' do
+  platform :tvos, '12.0'
+
+  pod 'RxSwift', '~> 4.4'
+  pod 'SwiftLint'
+  pod 'RxSSDP', :path => '.'
+end

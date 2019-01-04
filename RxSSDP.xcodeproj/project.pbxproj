@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DDE2484CC64CF1A813D44C0 /* Pods_TV_Sample_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC03867F9FB284C343586718 /* Pods_TV_Sample_App.framework */; };
 		6B75E1CD16D5E8A800E57B73 /* Pods_Mac_Sample_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B45008A8198DE9C9272179 /* Pods_Mac_Sample_App.framework */; };
 		A5D82BD76332A9A0B0A8A9C8 /* Pods_RxSSDP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC310FA945FF6DE3A9C87FE9 /* Pods_RxSSDP.framework */; };
 		F60F39CC37A6AF4296EBAA2A /* Pods_iOS_Sample_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8F4FA7D2A41AD7E0833A95 /* Pods_iOS_Sample_App.framework */; };
@@ -19,6 +20,10 @@
 		F82075C721DFD6BC003CE22B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82075C621DFD6BC003CE22B /* ViewController.swift */; };
 		F82075C921DFD6BD003CE22B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82075C821DFD6BD003CE22B /* Assets.xcassets */; };
 		F82075CC21DFD6BD003CE22B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82075CA21DFD6BD003CE22B /* Main.storyboard */; };
+		F82075DA21DFDEAD003CE22B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82075D921DFDEAD003CE22B /* AppDelegate.swift */; };
+		F82075DC21DFDEAD003CE22B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82075DB21DFDEAD003CE22B /* ViewController.swift */; };
+		F82075DF21DFDEAD003CE22B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82075DD21DFDEAD003CE22B /* Main.storyboard */; };
+		F82075E121DFDEAE003CE22B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82075E021DFDEAE003CE22B /* Assets.xcassets */; };
 		F855B912205D0E1A0014936C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855B911205D0E1A0014936C /* AppDelegate.swift */; };
 		F855B914205D0E1A0014936C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F855B913205D0E1A0014936C /* ViewController.swift */; };
 		F855B917205D0E1A0014936C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F855B915205D0E1A0014936C /* Main.storyboard */; };
@@ -32,10 +37,13 @@
 
 /* Begin PBXFileReference section */
 		2C9DE0A276CCCB0335755AF3 /* Pods-Mac Sample App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mac Sample App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mac Sample App/Pods-Mac Sample App.release.xcconfig"; sourceTree = "<group>"; };
+		58FDC5059E16F47FA05E7D1D /* Pods-TV Sample App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TV Sample App.release.xcconfig"; path = "Pods/Target Support Files/Pods-TV Sample App/Pods-TV Sample App.release.xcconfig"; sourceTree = "<group>"; };
 		5B7DBAD14841B8139F3E6CDD /* Pods-iOS Sample App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Sample App.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Sample App/Pods-iOS Sample App.release.xcconfig"; sourceTree = "<group>"; };
 		6C1C2CC9A802930718FB0643 /* Pods-RxSSDP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSSDP.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSSDP/Pods-RxSSDP.release.xcconfig"; sourceTree = "<group>"; };
+		7BE064C00E8C1970AC69A534 /* Pods-TV Sample App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TV Sample App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TV Sample App/Pods-TV Sample App.debug.xcconfig"; sourceTree = "<group>"; };
 		C9B45008A8198DE9C9272179 /* Pods_Mac_Sample_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mac_Sample_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5AB1D5473D1382A63A109B6 /* Pods-RxSSDP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSSDP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSSDP/Pods-RxSSDP.debug.xcconfig"; sourceTree = "<group>"; };
+		DC03867F9FB284C343586718 /* Pods_TV_Sample_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TV_Sample_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8F4FA7D2A41AD7E0833A95 /* Pods_iOS_Sample_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Sample_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAECDF3D4AC8F256B475824D /* Pods-iOS Sample App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Sample App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Sample App/Pods-iOS Sample App.debug.xcconfig"; sourceTree = "<group>"; };
 		F293656C8F76DB63C2F59351 /* Pods-Mac Sample App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mac Sample App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mac Sample App/Pods-Mac Sample App.debug.xcconfig"; sourceTree = "<group>"; };
@@ -54,6 +62,12 @@
 		F82075CD21DFD6BD003CE22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F82075CE21DFD6BD003CE22B /* Mac_Demo_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mac_Demo_App.entitlements; sourceTree = "<group>"; };
 		F82075D221DFDD41003CE22B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F82075D721DFDEAD003CE22B /* TV Sample App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV Sample App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82075D921DFDEAD003CE22B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F82075DB21DFDEAD003CE22B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F82075DE21DFDEAD003CE22B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F82075E021DFDEAE003CE22B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F82075E221DFDEAE003CE22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F855B90F205D0E1A0014936C /* iOS Sample App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Sample App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F855B911205D0E1A0014936C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F855B913205D0E1A0014936C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +99,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F82075D421DFDEAD003CE22B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDE2484CC64CF1A813D44C0 /* Pods_TV_Sample_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F855B90C205D0E1A0014936C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,6 +127,8 @@
 				5B7DBAD14841B8139F3E6CDD /* Pods-iOS Sample App.release.xcconfig */,
 				F293656C8F76DB63C2F59351 /* Pods-Mac Sample App.debug.xcconfig */,
 				2C9DE0A276CCCB0335755AF3 /* Pods-Mac Sample App.release.xcconfig */,
+				7BE064C00E8C1970AC69A534 /* Pods-TV Sample App.debug.xcconfig */,
+				58FDC5059E16F47FA05E7D1D /* Pods-TV Sample App.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -115,6 +139,7 @@
 				FC310FA945FF6DE3A9C87FE9 /* Pods_RxSSDP.framework */,
 				DE8F4FA7D2A41AD7E0833A95 /* Pods_iOS_Sample_App.framework */,
 				C9B45008A8198DE9C9272179 /* Pods_Mac_Sample_App.framework */,
+				DC03867F9FB284C343586718 /* Pods_TV_Sample_App.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -138,6 +163,7 @@
 		F82075BD21DFD532003CE22B /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				F82075D821DFDEAD003CE22B /* TV */,
 				F82075C321DFD6BC003CE22B /* Mac */,
 				F855B910205D0E1A0014936C /* iOS */,
 			);
@@ -156,6 +182,18 @@
 				F82075CE21DFD6BD003CE22B /* Mac_Demo_App.entitlements */,
 			);
 			path = Mac;
+			sourceTree = "<group>";
+		};
+		F82075D821DFDEAD003CE22B /* TV */ = {
+			isa = PBXGroup;
+			children = (
+				F82075D921DFDEAD003CE22B /* AppDelegate.swift */,
+				F82075DB21DFDEAD003CE22B /* ViewController.swift */,
+				F82075DD21DFDEAD003CE22B /* Main.storyboard */,
+				F82075E021DFDEAE003CE22B /* Assets.xcassets */,
+				F82075E221DFDEAE003CE22B /* Info.plist */,
+			);
+			path = TV;
 			sourceTree = "<group>";
 		};
 		F855B910205D0E1A0014936C /* iOS */ = {
@@ -190,6 +228,7 @@
 				F855B90F205D0E1A0014936C /* iOS Sample App.app */,
 				F8122C8A205D976300FE588A /* RxSSDP.framework */,
 				F82075C221DFD6BC003CE22B /* Mac Sample App.app */,
+				F82075D721DFDEAD003CE22B /* TV Sample App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -247,6 +286,25 @@
 			productReference = F82075C221DFD6BC003CE22B /* Mac Sample App.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F82075D621DFDEAD003CE22B /* TV Sample App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82075E321DFDEAE003CE22B /* Build configuration list for PBXNativeTarget "TV Sample App" */;
+			buildPhases = (
+				6BDE2B5850501EF790CC89A3 /* [CP] Check Pods Manifest.lock */,
+				F82075D321DFDEAD003CE22B /* Sources */,
+				F82075D421DFDEAD003CE22B /* Frameworks */,
+				F82075D521DFDEAD003CE22B /* Resources */,
+				CF33CEA7F7875490824FB95D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TV Sample App";
+			productName = "TV Sample App";
+			productReference = F82075D721DFDEAD003CE22B /* TV Sample App.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F855B90E205D0E1A0014936C /* iOS Sample App */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F855B91E205D0E1A0014936C /* Build configuration list for PBXNativeTarget "iOS Sample App" */;
@@ -285,6 +343,10 @@
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
 					};
+					F82075D621DFDEAD003CE22B = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 					F855B90E205D0E1A0014936C = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1010;
@@ -308,6 +370,7 @@
 				F8122C89205D976300FE588A /* RxSSDP */,
 				F855B90E205D0E1A0014936C /* iOS Sample App */,
 				F82075C121DFD6BC003CE22B /* Mac Sample App */,
+				F82075D621DFDEAD003CE22B /* TV Sample App */,
 			);
 		};
 /* End PBXProject section */
@@ -327,6 +390,15 @@
 			files = (
 				F82075C921DFD6BD003CE22B /* Assets.xcassets in Resources */,
 				F82075CC21DFD6BD003CE22B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82075D521DFDEAD003CE22B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82075E121DFDEAE003CE22B /* Assets.xcassets in Resources */,
+				F82075DF21DFDEAD003CE22B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +481,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6BDE2B5850501EF790CC89A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TV Sample App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C22FFBF427B3298D6256C81A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -447,6 +541,32 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF33CEA7F7875490824FB95D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TV Sample App/Pods-TV Sample App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic-tvOS/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift-tvOS/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSSDP-tvOS/RxSSDP.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSSDP.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TV Sample App/Pods-TV Sample App-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F808EEFF21DCA29B00382380 /* Swiftlint */ = {
@@ -493,6 +613,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F82075D321DFDEAD003CE22B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82075DC21DFDEAD003CE22B /* ViewController.swift in Sources */,
+				F82075DA21DFDEAD003CE22B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F855B90B205D0E1A0014936C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -509,6 +638,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				F82075CB21DFD6BD003CE22B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F82075DD21DFDEAD003CE22B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F82075DE21DFDEAD003CE22B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -621,6 +758,47 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		F82075E421DFDEAE003CE22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE064C00E8C1970AC69A534 /* Pods-TV Sample App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Demo App/TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uberweb.TV-Sample-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		F82075E521DFDEAE003CE22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FDC5059E16F47FA05E7D1D /* Pods-TV Sample App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Demo App/TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uberweb.TV-Sample-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -788,6 +966,15 @@
 			buildConfigurations = (
 				F82075CF21DFD6BD003CE22B /* Debug */,
 				F82075D021DFD6BD003CE22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F82075E321DFDEAE003CE22B /* Build configuration list for PBXNativeTarget "TV Sample App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82075E421DFDEAE003CE22B /* Debug */,
+				F82075E521DFDEAE003CE22B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
