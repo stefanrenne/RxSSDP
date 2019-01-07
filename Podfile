@@ -8,6 +8,11 @@ inhibit_all_warnings!
 
 target 'RxSSDP' do
   pod 'RxSwift', '~> 4.4'
+
+  target 'RxSSDPTests' do
+    inherit! :search_paths
+    pod 'RxBlocking', '~> 4.4'
+  end
 end
 
 target 'iOS Sample App' do

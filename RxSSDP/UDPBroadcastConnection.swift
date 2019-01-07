@@ -64,7 +64,7 @@ open class UDPBroadcastConnection {
      
      - returns: Returns true if the socket was created successfully.
      */
-    fileprivate func createSocket() -> Bool {
+    private func createSocket() -> Bool {
         
         // Create new socket
         let newSocket: Int32 = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP)
@@ -224,18 +224,18 @@ open class UDPBroadcastConnection {
     }
     
     // MARK: - Private
-    fileprivate func setNoSigPipe(socket: CInt) {
+    private func setNoSigPipe(socket: CInt) {
         // prevents crashes when blocking calls are pending and the app is paused ( via Home button )
         var no_sig_pipe: Int32 = 1
         setsockopt(socket, SOL_SOCKET, SO_NOSIGPIPE, &no_sig_pipe, socklen_t(MemoryLayout<Int32>.size))
     }
     
-    fileprivate class func htonsPort(port: in_port_t) -> in_port_t {
+    private class func htonsPort(port: in_port_t) -> in_port_t {
         let isLittleEndian = Int(OSHostByteOrder()) == OSLittleEndian
         return isLittleEndian ? _OSSwapInt16(port) : port
     }
     
-    fileprivate class func ntohs(value: CUnsignedShort) -> CUnsignedShort {
+    private class func ntohs(value: CUnsignedShort) -> CUnsignedShort {
         return (value << 8) + (value >> 8)
     }
     

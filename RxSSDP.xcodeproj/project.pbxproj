@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A64D9486FE99A29C2B52231 /* Pods_RxSSDPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4285A9BC84BEE0C6BBA42CD /* Pods_RxSSDPTests.framework */; };
 		5DDE2484CC64CF1A813D44C0 /* Pods_TV_Sample_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC03867F9FB284C343586718 /* Pods_TV_Sample_App.framework */; };
 		6B75E1CD16D5E8A800E57B73 /* Pods_Mac_Sample_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B45008A8198DE9C9272179 /* Pods_Mac_Sample_App.framework */; };
 		A5D82BD76332A9A0B0A8A9C8 /* Pods_RxSSDP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC310FA945FF6DE3A9C87FE9 /* Pods_RxSSDP.framework */; };
@@ -33,18 +34,33 @@
 		F8830F4720D79734002FC8B8 /* UDPBroadcastConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8830F4420D79734002FC8B8 /* UDPBroadcastConnection.swift */; };
 		F8830F4820D79734002FC8B8 /* SSDPMessageParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8830F4520D79734002FC8B8 /* SSDPMessageParser.swift */; };
 		F8B0D8B12083A5210072BAE0 /* SSDPSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B0D8B02083A5210072BAE0 /* SSDPSettings.swift */; };
+		F8D9BFE721E370CF00B895E6 /* RxSSDP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8122C8A205D976300FE588A /* RxSSDP.framework */; };
+		F8D9BFEE21E371D600B895E6 /* SSDPMessageParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D9BFED21E371D500B895E6 /* SSDPMessageParserTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8D9BFE821E370CF00B895E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8F56175205D0C8E00E28533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8122C89205D976300FE588A;
+			remoteInfo = RxSSDP;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2C9DE0A276CCCB0335755AF3 /* Pods-Mac Sample App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mac Sample App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mac Sample App/Pods-Mac Sample App.release.xcconfig"; sourceTree = "<group>"; };
+		4F4959CB70DBDE17C6731F24 /* Pods-RxSSDPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSSDPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSSDPTests/Pods-RxSSDPTests.release.xcconfig"; sourceTree = "<group>"; };
 		58FDC5059E16F47FA05E7D1D /* Pods-TV Sample App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TV Sample App.release.xcconfig"; path = "Pods/Target Support Files/Pods-TV Sample App/Pods-TV Sample App.release.xcconfig"; sourceTree = "<group>"; };
 		5B7DBAD14841B8139F3E6CDD /* Pods-iOS Sample App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Sample App.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Sample App/Pods-iOS Sample App.release.xcconfig"; sourceTree = "<group>"; };
 		6C1C2CC9A802930718FB0643 /* Pods-RxSSDP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSSDP.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSSDP/Pods-RxSSDP.release.xcconfig"; sourceTree = "<group>"; };
 		7BE064C00E8C1970AC69A534 /* Pods-TV Sample App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TV Sample App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TV Sample App/Pods-TV Sample App.debug.xcconfig"; sourceTree = "<group>"; };
+		A99970F92531E73342D98217 /* Pods-RxSSDPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSSDPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSSDPTests/Pods-RxSSDPTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C9B45008A8198DE9C9272179 /* Pods_Mac_Sample_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mac_Sample_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5AB1D5473D1382A63A109B6 /* Pods-RxSSDP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSSDP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSSDP/Pods-RxSSDP.debug.xcconfig"; sourceTree = "<group>"; };
 		DC03867F9FB284C343586718 /* Pods_TV_Sample_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TV_Sample_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8F4FA7D2A41AD7E0833A95 /* Pods_iOS_Sample_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Sample_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4285A9BC84BEE0C6BBA42CD /* Pods_RxSSDPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSSDPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAECDF3D4AC8F256B475824D /* Pods-iOS Sample App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Sample App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Sample App/Pods-iOS Sample App.debug.xcconfig"; sourceTree = "<group>"; };
 		F293656C8F76DB63C2F59351 /* Pods-Mac Sample App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mac Sample App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mac Sample App/Pods-Mac Sample App.debug.xcconfig"; sourceTree = "<group>"; };
 		F808EF0021DCA35B00382380 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
@@ -79,6 +95,9 @@
 		F8830F4420D79734002FC8B8 /* UDPBroadcastConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDPBroadcastConnection.swift; sourceTree = "<group>"; };
 		F8830F4520D79734002FC8B8 /* SSDPMessageParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPMessageParser.swift; sourceTree = "<group>"; };
 		F8B0D8B02083A5210072BAE0 /* SSDPSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSDPSettings.swift; sourceTree = "<group>"; };
+		F8D9BFE221E370CF00B895E6 /* RxSSDPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSSDPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D9BFE621E370CF00B895E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D9BFED21E371D500B895E6 /* SSDPMessageParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSDPMessageParserTests.swift; sourceTree = "<group>"; };
 		FC310FA945FF6DE3A9C87FE9 /* Pods_RxSSDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSSDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -115,6 +134,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8D9BFDF21E370CF00B895E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D9BFE721E370CF00B895E6 /* RxSSDP.framework in Frameworks */,
+				5A64D9486FE99A29C2B52231 /* Pods_RxSSDPTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -129,6 +157,8 @@
 				2C9DE0A276CCCB0335755AF3 /* Pods-Mac Sample App.release.xcconfig */,
 				7BE064C00E8C1970AC69A534 /* Pods-TV Sample App.debug.xcconfig */,
 				58FDC5059E16F47FA05E7D1D /* Pods-TV Sample App.release.xcconfig */,
+				A99970F92531E73342D98217 /* Pods-RxSSDPTests.debug.xcconfig */,
+				4F4959CB70DBDE17C6731F24 /* Pods-RxSSDPTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -140,6 +170,7 @@
 				DE8F4FA7D2A41AD7E0833A95 /* Pods_iOS_Sample_App.framework */,
 				C9B45008A8198DE9C9272179 /* Pods_Mac_Sample_App.framework */,
 				DC03867F9FB284C343586718 /* Pods_TV_Sample_App.framework */,
+				E4285A9BC84BEE0C6BBA42CD /* Pods_RxSSDPTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -209,6 +240,15 @@
 			path = iOS;
 			sourceTree = "<group>";
 		};
+		F8D9BFE321E370CF00B895E6 /* RxSSDPTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8D9BFE621E370CF00B895E6 /* Info.plist */,
+				F8D9BFED21E371D500B895E6 /* SSDPMessageParserTests.swift */,
+			);
+			path = RxSSDPTests;
+			sourceTree = "<group>";
+		};
 		F8F56174205D0C8E00E28533 = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +256,7 @@
 				F808EF0021DCA35B00382380 /* .swiftlint.yml */,
 				F82075BD21DFD532003CE22B /* Demo */,
 				F8122C8B205D976300FE588A /* RxSSDP */,
+				F8D9BFE321E370CF00B895E6 /* RxSSDPTests */,
 				F8F5617E205D0C8E00E28533 /* Products */,
 				D1F9F89FB895879671AB0312 /* Pods */,
 				F0B0D6427D56302F02F2297F /* Frameworks */,
@@ -229,6 +270,7 @@
 				F8122C8A205D976300FE588A /* RxSSDP.framework */,
 				F82075C221DFD6BC003CE22B /* Mac Sample App.app */,
 				F82075D721DFDEAD003CE22B /* TV Sample App.app */,
+				F8D9BFE221E370CF00B895E6 /* RxSSDPTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -324,6 +366,26 @@
 			productReference = F855B90F205D0E1A0014936C /* iOS Sample App.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F8D9BFE121E370CF00B895E6 /* RxSSDPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D9BFEC21E370CF00B895E6 /* Build configuration list for PBXNativeTarget "RxSSDPTests" */;
+			buildPhases = (
+				4AD8FB129A87ABA14564F3E1 /* [CP] Check Pods Manifest.lock */,
+				F8D9BFDE21E370CF00B895E6 /* Sources */,
+				F8D9BFDF21E370CF00B895E6 /* Frameworks */,
+				F8D9BFE021E370CF00B895E6 /* Resources */,
+				A3652F19F8DC598FAF131ECB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D9BFE921E370CF00B895E6 /* PBXTargetDependency */,
+			);
+			name = RxSSDPTests;
+			productName = RxSSDPTests;
+			productReference = F8D9BFE221E370CF00B895E6 /* RxSSDPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -352,6 +414,10 @@
 						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
+					F8D9BFE121E370CF00B895E6 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = F8F56178205D0C8E00E28533 /* Build configuration list for PBXProject "RxSSDP" */;
@@ -371,6 +437,7 @@
 				F855B90E205D0E1A0014936C /* iOS Sample App */,
 				F82075C121DFD6BC003CE22B /* Mac Sample App */,
 				F82075D621DFDEAD003CE22B /* TV Sample App */,
+				F8D9BFE121E370CF00B895E6 /* RxSSDPTests */,
 			);
 		};
 /* End PBXProject section */
@@ -412,6 +479,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8D9BFE021E370CF00B895E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -439,6 +513,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mac Sample App/Pods-Mac Sample App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AD8FB129A87ABA14564F3E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSSDPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4AEAF9E50E5023828A21B480 /* [CP] Embed Pods Frameworks */ = {
@@ -501,6 +597,32 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3652F19F8DC598FAF131ECB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxSSDPTests/Pods-RxSSDPTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic-iOS/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift-iOS/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSSDPTests/Pods-RxSSDPTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C22FFBF427B3298D6256C81A /* [CP] Check Pods Manifest.lock */ = {
@@ -631,7 +753,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8D9BFDE21E370CF00B895E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D9BFEE21E371D600B895E6 /* SSDPMessageParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8D9BFE921E370CF00B895E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8122C89205D976300FE588A /* RxSSDP */;
+			targetProxy = F8D9BFE821E370CF00B895E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F82075CA21DFD6BD003CE22B /* Main.storyboard */ = {
@@ -832,6 +970,43 @@
 			};
 			name = Release;
 		};
+		F8D9BFEA21E370CF00B895E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99970F92531E73342D98217 /* Pods-RxSSDPTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RxSSDPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uberweb.RxSSDPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8D9BFEB21E370CF00B895E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4959CB70DBDE17C6731F24 /* Pods-RxSSDPTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RxSSDPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uberweb.RxSSDPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		F8F5618A205D0C8E00E28533 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -984,6 +1159,15 @@
 			buildConfigurations = (
 				F855B91F205D0E1A0014936C /* Debug */,
 				F855B920205D0E1A0014936C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D9BFEC21E370CF00B895E6 /* Build configuration list for PBXNativeTarget "RxSSDPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D9BFEA21E370CF00B895E6 /* Debug */,
+				F8D9BFEB21E370CF00B895E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
