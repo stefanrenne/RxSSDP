@@ -31,15 +31,3 @@ class ViewController: UIViewController {
             .disposed(by: disposeBag)
     }
 }
-
-extension Array where Element == SSDPResponse {
-    func mapToString() -> String {
-        guard count > 0 else {
-            return "No Responses"
-        }
-        
-        return compactMap({ (response) -> String in
-            return response.description
-        }).joined(separator: "\n\n====================\n\n")
-    }
-}
