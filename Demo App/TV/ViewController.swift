@@ -39,7 +39,7 @@ extension Array where Element == SSDPResponse {
         }
         
         return compactMap({ (response) -> String in
-            return response.data.description
+            return response.description
         }).joined(separator: "\n\n====================\n\n")
     }
 }

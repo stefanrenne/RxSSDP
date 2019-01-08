@@ -20,6 +20,17 @@ public struct SSDPResponse: Codable {
     }
 }
 
+extension SSDPResponse: CustomStringConvertible, CustomDebugStringConvertible {
+    
+    public var description: String {
+        return data.description
+    }
+    
+    public var debugDescription: String {
+        return data.debugDescription
+    }
+}
+
 extension SSDPResponse: Equatable {
     
     public static func == (lhs: SSDPResponse, rhs: SSDPResponse) -> Bool {
