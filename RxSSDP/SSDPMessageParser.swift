@@ -33,7 +33,7 @@ class SSDPMessageParser {
             let unicodeScalars = self.scanner.string.unicodeScalars
             let index = unicodeScalars.index(unicodeScalars.startIndex, offsetBy: self.scanner.scanLocation)
             
-            if unicodeScalars.count <= index.encodedOffset || CharacterSet.newlines.contains(unicodeScalars[index]) {
+            if unicodeScalars.count <= index.utf16Offset(in: self.scanner.string) || CharacterSet.newlines.contains(unicodeScalars[index]) {
                 valueBuffer = ""
             } else {
                 valueBuffer = self.scanLine()

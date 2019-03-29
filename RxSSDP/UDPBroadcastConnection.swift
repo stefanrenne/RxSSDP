@@ -162,13 +162,14 @@ open class UDPBroadcastConnection {
         guard let source = responseSource else { return }
         let UDPSocket = Int32(source.handle)
         let socketLength = socklen_t(address.sin_len)
-        data.withUnsafeBytes { (broadcastMessage: UnsafePointer<Int8>) in
+        data.withUnsafeBytes { (bytes: UnsafeRawBufferPointer) in
             let broadcastMessageLength = data.count
+            let broadcastMessage = bytes.baseAddress
             let sent = withUnsafeMutablePointer(to: &address) { pointer -> Int in
                 let memory = UnsafeRawPointer(pointer).bindMemory(to: sockaddr.self, capacity: 1)
                 return sendto(UDPSocket, broadcastMessage, broadcastMessageLength, 0, memory, socketLength)
             }
-            
+
             guard sent > 0 else {
                 if let errorString = String(validatingUTF8: strerror(errno)) {
                     debugPrint("UDP connection failed to send data: \(errorString)")

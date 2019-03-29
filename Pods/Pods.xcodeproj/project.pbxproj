@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -965,7 +965,7 @@
 		00E6081E4485DF348CB3379FE13A244A /* Lock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lock.swift; path = RxSwift/Concurrency/Lock.swift; sourceTree = "<group>"; };
 		0247FD1B5A1AB738B7BA2237BCCCF780 /* Pods-RxSSDPTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RxSSDPTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0261D7F31BD7F9A6021C13C2BA18DD02 /* Throttle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Throttle.swift; path = RxSwift/Observables/Throttle.swift; sourceTree = "<group>"; };
-		02A48EE4AA50F0DE536ADA8530A235E6 /* RxBlocking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxBlocking.framework; path = RxBlocking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A48EE4AA50F0DE536ADA8530A235E6 /* RxBlocking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxBlocking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C86BF1842614665A382F255A47580D /* Pods-RxSSDPTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RxSSDPTests-frameworks.sh"; sourceTree = "<group>"; };
 		02FB0666B38B3023F36D16418060DF7B /* Pods-Watch Sample App Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Watch Sample App Extension-umbrella.h"; sourceTree = "<group>"; };
 		03F56253CA7364B75E49BDEBE6021C6B /* HistoricalSchedulerTimeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistoricalSchedulerTimeConverter.swift; path = RxSwift/Schedulers/HistoricalSchedulerTimeConverter.swift; sourceTree = "<group>"; };
@@ -993,7 +993,7 @@
 		13E635580A5E31AA0E61B6DD7A41A9D8 /* Multicast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Multicast.swift; path = RxSwift/Observables/Multicast.swift; sourceTree = "<group>"; };
 		145764F9E9CD02B261029E9586A657B8 /* RxSSDP-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxSSDP-iOS-prefix.pch"; sourceTree = "<group>"; };
 		14762ECB2F7DDF09AAB2EBC59E1F2A1A /* RxSSDP-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RxSSDP-macOS-prefix.pch"; path = "../RxSSDP-macOS/RxSSDP-macOS-prefix.pch"; sourceTree = "<group>"; };
-		14E7A424EC9013F7F4ACEB59483340A0 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxSwift.framework; path = "RxSwift-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E7A424EC9013F7F4ACEB59483340A0 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C0F0F88E4DD6D05776A6787BA7EFD7 /* Window.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Window.swift; path = RxSwift/Observables/Window.swift; sourceTree = "<group>"; };
 		15C8AC485A1E04996485CB8B404AD9AE /* BlockingObservable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockingObservable.swift; path = RxBlocking/BlockingObservable.swift; sourceTree = "<group>"; };
 		169F5F3D5F3E4588B6BCD5EA16C3286C /* CombineLatest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombineLatest.swift; path = RxSwift/Observables/CombineLatest.swift; sourceTree = "<group>"; };
@@ -1015,7 +1015,7 @@
 		23CEFC76D0957F0E898690CCAA87626D /* Do.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Do.swift; path = RxSwift/Observables/Do.swift; sourceTree = "<group>"; };
 		2453FABDCD3D78551239274FD1D884FD /* ReplaySubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaySubject.swift; path = RxSwift/Subjects/ReplaySubject.swift; sourceTree = "<group>"; };
 		258E29718C8C0A93B05CF6740F62A3AF /* String+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Rx.swift"; path = "RxSwift/Extensions/String+Rx.swift"; sourceTree = "<group>"; };
-		26002C3FD9AE7174973988204681F2A7 /* Pods_Watch_Sample_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Watch_Sample_App.framework; path = "Pods-Watch Sample App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26002C3FD9AE7174973988204681F2A7 /* Pods_Watch_Sample_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Watch_Sample_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B3F773EE172EAB881E37AF01C06865 /* AsSingle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsSingle.swift; path = RxSwift/Observables/AsSingle.swift; sourceTree = "<group>"; };
 		282A1BA1E94F35576B1AB2CD085738E4 /* ObserverBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserverBase.swift; path = RxSwift/Observers/ObserverBase.swift; sourceTree = "<group>"; };
 		28ED0DCFE45A84122EFDD451D882B6CD /* CurrentThreadScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrentThreadScheduler.swift; path = RxSwift/Schedulers/CurrentThreadScheduler.swift; sourceTree = "<group>"; };
@@ -1033,11 +1033,11 @@
 		3751FD7E464A377A6E47B3F3A06E5446 /* Platform.Linux.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Linux.swift; path = Platform/Platform.Linux.swift; sourceTree = "<group>"; };
 		37EACC095F56A27BED2FB895863BED35 /* RxSwift-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "RxSwift-iOS.modulemap"; sourceTree = "<group>"; };
 		388A934193AFAB847E6FAFBC088A29EF /* SSDPRepositoryImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSDPRepositoryImpl.swift; path = RxSSDP/SSDPRepositoryImpl.swift; sourceTree = "<group>"; };
-		38F4464C80F58736F78B8CBA64DC14F6 /* Pods_RxSSDPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RxSSDPTests.framework; path = "Pods-RxSSDPTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F4464C80F58736F78B8CBA64DC14F6 /* Pods_RxSSDPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSSDPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3917A87AC297B3B9000DD349EE015969 /* SSDPRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSDPRepository.swift; path = RxSSDP/SSDPRepository.swift; sourceTree = "<group>"; };
 		39354122D0B5A0A1E61A3AC4FD1CCE33 /* Pods-Mac Sample App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mac Sample App.modulemap"; sourceTree = "<group>"; };
 		3A3EF653095ADAADE70900CB1E3FAC0C /* RxSSDP-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxSSDP-iOS-dummy.m"; sourceTree = "<group>"; };
-		3B4D7FD95F807710A83417DA89DDF214 /* Pods_Watch_Sample_App_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Watch_Sample_App_Extension.framework; path = "Pods-Watch Sample App Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4D7FD95F807710A83417DA89DDF214 /* Pods_Watch_Sample_App_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Watch_Sample_App_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDCD38F4CE3EAAC6BB5A9616D1DB06C /* AnonymousObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnonymousObserver.swift; path = RxSwift/Observers/AnonymousObserver.swift; sourceTree = "<group>"; };
 		3DA40AB4FFD25C5C733C5BE6FBA39D26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DDDE2E4F08D7DC524041B5789054B00 /* Pods-Mac Sample App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mac Sample App-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -1052,13 +1052,13 @@
 		442382E9EE817515655CE985EBA21BBE /* RxSSDP-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "RxSSDP-tvOS.xcconfig"; path = "../RxSSDP-tvOS/RxSSDP-tvOS.xcconfig"; sourceTree = "<group>"; };
 		4612E7060E9740A302AD9B987B9654C5 /* VirtualTimeConverterType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VirtualTimeConverterType.swift; path = RxSwift/Schedulers/VirtualTimeConverterType.swift; sourceTree = "<group>"; };
 		46450BE5EAFA0C664709A065C14BDE6A /* Pods-RxSSDP-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RxSSDP-resources.sh"; sourceTree = "<group>"; };
-		4796DFB99921C6B6B44A02C73688A98B /* Pods_TV_Sample_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TV_Sample_App.framework; path = "Pods-TV Sample App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4796DFB99921C6B6B44A02C73688A98B /* Pods_TV_Sample_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TV_Sample_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48980057FA04227DB646C59A04D37B54 /* AtomicInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AtomicInt.swift; path = Platform/AtomicInt.swift; sourceTree = "<group>"; };
 		49155301B70C00AA3FC3D06D818DBEEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../RxSwift-watchOS/Info.plist"; sourceTree = "<group>"; };
 		4A789C8AD1A00E6414BF0B373A2E37E1 /* BlockingObservable+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BlockingObservable+Operators.swift"; path = "RxBlocking/BlockingObservable+Operators.swift"; sourceTree = "<group>"; };
 		4B993AD058FF67A89CB03FA602D10200 /* RxAtomic-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxAtomic-iOS-dummy.m"; sourceTree = "<group>"; };
 		4C1C2A1E860838A6772DD96C689CDB6C /* RxSSDP-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RxSSDP-watchOS-dummy.m"; path = "../RxSSDP-watchOS/RxSSDP-watchOS-dummy.m"; sourceTree = "<group>"; };
-		4C4E7B403BF99ED4F06E8141F5F689D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4C4E7B403BF99ED4F06E8141F5F689D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4E19E305EA4EE4729E59EF9B83D0F89B /* RxSwift-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "RxSwift-tvOS.modulemap"; path = "../RxSwift-tvOS/RxSwift-tvOS.modulemap"; sourceTree = "<group>"; };
 		4F361BE21F671CCC0FDF5FF0016015B2 /* Sample.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sample.swift; path = RxSwift/Observables/Sample.swift; sourceTree = "<group>"; };
 		4FEAC1477991C0EAAF7C5325813B7DB2 /* ObserverType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserverType.swift; path = RxSwift/ObserverType.swift; sourceTree = "<group>"; };
@@ -1070,7 +1070,7 @@
 		53D00A05A938798BCA8A4094D30BC0BF /* PrimitiveSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrimitiveSequence.swift; path = RxSwift/Traits/PrimitiveSequence.swift; sourceTree = "<group>"; };
 		53D75F57AD27BDE01D4927C2A6E3562E /* RxBlocking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxBlocking.xcconfig; sourceTree = "<group>"; };
 		542AB3DE99191AA94BDEE04F8D31FB68 /* ObservableConvertibleType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservableConvertibleType.swift; path = RxSwift/ObservableConvertibleType.swift; sourceTree = "<group>"; };
-		546ACE350A25C249ED9FF69AE105765A /* Pods_Mac_Sample_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Mac_Sample_App.framework; path = "Pods-Mac Sample App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		546ACE350A25C249ED9FF69AE105765A /* Pods_Mac_Sample_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mac_Sample_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		552628E9835ACADFAFC0270DDEDCAA45 /* Pods-RxSSDP-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RxSSDP-acknowledgements.markdown"; sourceTree = "<group>"; };
 		558A75A70A4E0036EB1BFC354B481458 /* LockOwnerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LockOwnerType.swift; path = RxSwift/Concurrency/LockOwnerType.swift; sourceTree = "<group>"; };
 		5722D125251AB761069DEB74E4EE4570 /* Pods-Watch Sample App Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Watch Sample App Extension-frameworks.sh"; sourceTree = "<group>"; };
@@ -1094,8 +1094,8 @@
 		64DEB6F8AF0D9B02AEA2DDDBF5C50D37 /* Completable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Completable.swift; path = RxSwift/Traits/Completable.swift; sourceTree = "<group>"; };
 		658877F81E701C7EBC75D31CEAC95C1D /* Buffer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Buffer.swift; path = RxSwift/Observables/Buffer.swift; sourceTree = "<group>"; };
 		658DB54FCF593FBC823D1D967A720E10 /* RxBlocking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxBlocking-prefix.pch"; sourceTree = "<group>"; };
-		66443E9B07DA8DD169479F6DF96A9DA0 /* RxSSDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxSSDP.framework; path = "RxSSDP-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		668A8280B65B48E592CA8121A720A355 /* RxSSDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxSSDP.framework; path = "RxSSDP-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66443E9B07DA8DD169479F6DF96A9DA0 /* RxSSDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSSDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		668A8280B65B48E592CA8121A720A355 /* RxSSDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSSDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A98CD063897D0155D1177F3C2F32C5 /* Platform.Darwin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Darwin.swift; path = Platform/Platform.Darwin.swift; sourceTree = "<group>"; };
 		66C9C1B3DC638D912AEDDDDDC676141E /* Zip+Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Zip+Collection.swift"; path = "RxSwift/Observables/Zip+Collection.swift"; sourceTree = "<group>"; };
 		66DFF8F2F2A84C4DD1D40A6C7641874E /* RxSwift-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RxSwift-watchOS-dummy.m"; path = "../RxSwift-watchOS/RxSwift-watchOS-dummy.m"; sourceTree = "<group>"; };
@@ -1106,7 +1106,7 @@
 		69CA449242C1AC16168E08B827490E94 /* SSDPSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSDPSettings.swift; path = RxSSDP/SSDPSettings.swift; sourceTree = "<group>"; };
 		6BEF653299DA134B8A0824960DA1B140 /* RxAtomic-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RxAtomic-watchOS-dummy.m"; path = "../RxAtomic-watchOS/RxAtomic-watchOS-dummy.m"; sourceTree = "<group>"; };
 		6BFFFC9097BB5602FC4232032D9A7F5C /* DisposeBag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisposeBag.swift; path = RxSwift/Disposables/DisposeBag.swift; sourceTree = "<group>"; };
-		6D973AE8783B0AB5C67054ABC81AA628 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6D973AE8783B0AB5C67054ABC81AA628 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6EF2711D94306D0FFCF2D83DA7897817 /* Pods-RxSSDPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RxSSDPTests.release.xcconfig"; sourceTree = "<group>"; };
 		70AA85148700B17EFAD3B7B231774D94 /* RetryWhen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryWhen.swift; path = RxSwift/Observables/RetryWhen.swift; sourceTree = "<group>"; };
 		70D945558D212A7EAAED88B16004E28A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1135,10 +1135,10 @@
 		7FC95FE7A0D34EE41B2B99212A3525D7 /* Zip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zip.swift; path = RxSwift/Observables/Zip.swift; sourceTree = "<group>"; };
 		801EE46A5DB36453938402545AE85EBC /* Pods-RxSSDPTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RxSSDPTests.modulemap"; sourceTree = "<group>"; };
 		802B185A7B5A0579FBDD7070F33AE137 /* Range.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Range.swift; path = RxSwift/Observables/Range.swift; sourceTree = "<group>"; };
-		80431411347CAD9C3677FBA9D47E7153 /* RxAtomic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxAtomic.framework; path = "RxAtomic-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80431411347CAD9C3677FBA9D47E7153 /* RxAtomic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxAtomic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		805B084B6E8D1167E589A54CA5D6C147 /* RecursiveLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecursiveLock.swift; path = Platform/RecursiveLock.swift; sourceTree = "<group>"; };
 		80F6A4F15E0D22CCAEECE56340D3CC5F /* Pods-iOS Sample App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS Sample App-acknowledgements.plist"; sourceTree = "<group>"; };
-		81ECFFCD46D96A56C908DE242EF37DC4 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxSwift.framework; path = "RxSwift-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81ECFFCD46D96A56C908DE242EF37DC4 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		857579371A9AF38F6CABA0E244C86F18 /* Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Create.swift; path = RxSwift/Observables/Create.swift; sourceTree = "<group>"; };
 		85A397524FF3DF965AEA9FFEE3E67C67 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		86EC4C15591E65F34AF80183CB88CB94 /* Pods-Mac Sample App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mac Sample App.release.xcconfig"; sourceTree = "<group>"; };
@@ -1157,13 +1157,13 @@
 		8FBD3239C9DF8D4E4723FD69919DE2B3 /* Pods-TV Sample App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TV Sample App-frameworks.sh"; sourceTree = "<group>"; };
 		8FE01A2406875FF0F8AECB2908EF4545 /* TakeLast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TakeLast.swift; path = RxSwift/Observables/TakeLast.swift; sourceTree = "<group>"; };
 		900D7FDD9B7026A5D1BE0A5F4FC42AE5 /* Scan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scan.swift; path = RxSwift/Observables/Scan.swift; sourceTree = "<group>"; };
-		9033BADC53A4D21C0BF2FBFF6B73900D /* RxSSDP.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RxSSDP.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9033BADC53A4D21C0BF2FBFF6B73900D /* RxSSDP.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RxSSDP.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		916D59FE7304CEE31479F076C9A591B9 /* NopDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NopDisposable.swift; path = RxSwift/Disposables/NopDisposable.swift; sourceTree = "<group>"; };
 		92CDADC94C068F630F4DE26553C93653 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FE040056B8DCB1E9BCC33CE9292A27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		936F1EEB87524414965D2FEB9336A0E8 /* SSDPResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSDPResponse.swift; path = RxSSDP/SSDPResponse.swift; sourceTree = "<group>"; };
 		9372E458CB9EFFC990E29CB96456E25E /* DispatchQueue+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Extensions.swift"; path = "Platform/DispatchQueue+Extensions.swift"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		948F25511295B034C873CB586EFD743B /* Pods-Watch Sample App Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Watch Sample App Extension.modulemap"; sourceTree = "<group>"; };
 		94D25756034A9BB2D5A891E89D45E25C /* AnyObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyObserver.swift; path = RxSwift/AnyObserver.swift; sourceTree = "<group>"; };
 		94E65A9C7155039160159C0698B32825 /* ScheduledDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScheduledDisposable.swift; path = RxSwift/Disposables/ScheduledDisposable.swift; sourceTree = "<group>"; };
@@ -1186,13 +1186,13 @@
 		9C9CE5467F43FED99DDC5CE77714F129 /* MainScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MainScheduler.swift; path = RxSwift/Schedulers/MainScheduler.swift; sourceTree = "<group>"; };
 		9CE8DE2D8652B4BD55D8C5EC68DD3F5B /* BehaviorSubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BehaviorSubject.swift; path = RxSwift/Subjects/BehaviorSubject.swift; sourceTree = "<group>"; };
 		9EE66BD21E52A64927FFF85E88770460 /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = RxSwift/Deprecated.swift; sourceTree = "<group>"; };
-		A05ECE3BDCA30BEE33B910ECA9B0157E /* RxSSDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxSSDP.framework; path = "RxSSDP-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05ECE3BDCA30BEE33B910ECA9B0157E /* RxSSDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSSDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06B13036C3C5302A01E4FED769E62A4 /* InfiniteSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteSequence.swift; path = Platform/DataStructures/InfiniteSequence.swift; sourceTree = "<group>"; };
-		A122859B9F6974B48F4D1CA62D4A6CA6 /* RxAtomic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxAtomic.framework; path = "RxAtomic-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A122859B9F6974B48F4D1CA62D4A6CA6 /* RxAtomic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxAtomic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36DD363ABD873304779787E40109D48 /* ToArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToArray.swift; path = RxSwift/Observables/ToArray.swift; sourceTree = "<group>"; };
 		A5ACAD6CDE12E611A4C5FD1A2EB142F3 /* BinaryDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryDisposable.swift; path = RxSwift/Disposables/BinaryDisposable.swift; sourceTree = "<group>"; };
 		A73D7AB689D53D34CF4586FA8F971F35 /* RxAtomic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxAtomic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7CA96122CA1E8D867F75F359A6456A8 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxSwift.framework; path = "RxSwift-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CA96122CA1E8D867F75F359A6456A8 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7E1D5DB74BDC6F9382359775B0ABE6E /* TakeWhile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TakeWhile.swift; path = RxSwift/Observables/TakeWhile.swift; sourceTree = "<group>"; };
 		A9065A816EE839C0BA778FBE443C0A9B /* RxAtomic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RxAtomic.h; path = RxAtomic/include/RxAtomic.h; sourceTree = "<group>"; };
 		A932AFBD5EC074F55476B742F79E4037 /* RxSwift-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "RxSwift-macOS.modulemap"; path = "../RxSwift-macOS/RxSwift-macOS.modulemap"; sourceTree = "<group>"; };
@@ -1244,11 +1244,11 @@
 		CB585BA9F8941CF463CD8D8B352ABCBC /* RxAtomic-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxAtomic-iOS-prefix.pch"; sourceTree = "<group>"; };
 		CBA8AF2F645390B0DE5EEE05EE3D8ED3 /* Pods-RxSSDP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RxSSDP.modulemap"; sourceTree = "<group>"; };
 		CBF8AFA2F5F821EC64DB1915F0B04F82 /* Switch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Switch.swift; path = RxSwift/Observables/Switch.swift; sourceTree = "<group>"; };
-		CC392E0D22A875497417F3E898FFBBAA /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxSwift.framework; path = "RxSwift-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC392E0D22A875497417F3E898FFBBAA /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1A20FB8D5BDFF3F03BF90628ACDD22 /* Pods-Mac Sample App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mac Sample App-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D1B5486021C3432278BA05C66F10A88D /* CompositeDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompositeDisposable.swift; path = RxSwift/Disposables/CompositeDisposable.swift; sourceTree = "<group>"; };
 		D1DF517CAD4B50D455425C300BAA7594 /* Pods-iOS Sample App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS Sample App-dummy.m"; sourceTree = "<group>"; };
-		D1F82199BA7203FC8168F6482DF84318 /* RxAtomic.c */ = {isa = PBXFileReference; includeInIndex = 1; name = RxAtomic.c; path = RxAtomic/RxAtomic.c; sourceTree = "<group>"; };
+		D1F82199BA7203FC8168F6482DF84318 /* RxAtomic.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = RxAtomic.c; path = RxAtomic/RxAtomic.c; sourceTree = "<group>"; };
 		D3BEC22B09728AC5D308CC4AAE2795A5 /* Pods-RxSSDP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RxSSDP.debug.xcconfig"; sourceTree = "<group>"; };
 		D419FC6D11ACD1665A488609065B13EE /* Pods-RxSSDPTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RxSSDPTests-umbrella.h"; sourceTree = "<group>"; };
 		D661B1B7C6DBA544B13B0F56A5E506BD /* SynchronizedOnType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedOnType.swift; path = RxSwift/Concurrency/SynchronizedOnType.swift; sourceTree = "<group>"; };
@@ -1264,7 +1264,7 @@
 		DBB56BC8DD6ABE92E0B4558CEF64ADBD /* CombineLatest+Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CombineLatest+Collection.swift"; path = "RxSwift/Observables/CombineLatest+Collection.swift"; sourceTree = "<group>"; };
 		DBBF01C345BB6E4A83529B2048717BCF /* Resources.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resources.swift; path = RxBlocking/Resources.swift; sourceTree = "<group>"; };
 		DC2B293BB1C3E4F22465AF9107F4B27B /* DistinctUntilChanged.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DistinctUntilChanged.swift; path = RxSwift/Observables/DistinctUntilChanged.swift; sourceTree = "<group>"; };
-		DC5B9466F4A401F2C38CC57C4BD2E9C6 /* Pods_RxSSDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RxSSDP.framework; path = "Pods-RxSSDP.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5B9466F4A401F2C38CC57C4BD2E9C6 /* Pods_RxSSDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSSDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE0E8E99C3115BF6F086FF0C21854A5 /* SynchronizedUnsubscribeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedUnsubscribeType.swift; path = RxSwift/Concurrency/SynchronizedUnsubscribeType.swift; sourceTree = "<group>"; };
 		DD6F3C82716C61D98CB6BC2D4142B0CB /* RxSwift-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RxSwift-iOS.xcconfig"; sourceTree = "<group>"; };
 		DE71722AEE4682B873DAE3B33AE52702 /* Pods-Mac Sample App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mac Sample App-frameworks.sh"; sourceTree = "<group>"; };
@@ -1273,18 +1273,18 @@
 		E040CBF8355E0FFCD7E25F0B5D630271 /* RxSSDP-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "RxSSDP-iOS.modulemap"; sourceTree = "<group>"; };
 		E1BB1EFD6C4EC3E51BC634FF6BA23A41 /* Pods-TV Sample App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TV Sample App.modulemap"; sourceTree = "<group>"; };
 		E2559B670E765E106D7CABF9F9DBB249 /* RxBlocking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxBlocking-umbrella.h"; sourceTree = "<group>"; };
-		E2925389FC1C188BD0751B2941192BD8 /* Pods_iOS_Sample_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOS_Sample_App.framework; path = "Pods-iOS Sample App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2925389FC1C188BD0751B2941192BD8 /* Pods_iOS_Sample_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Sample_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D1293BFEF3553F7ECAFE92184BFC7E /* First.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = First.swift; path = RxSwift/Observables/First.swift; sourceTree = "<group>"; };
 		E3F17CB6D93FBE95410FE3814428658E /* Disposables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disposables.swift; path = RxSwift/Disposables/Disposables.swift; sourceTree = "<group>"; };
 		E5D5D2E6C182B83985ABF27CC879E25D /* AsyncSubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncSubject.swift; path = RxSwift/Subjects/AsyncSubject.swift; sourceTree = "<group>"; };
 		E5FD9F6B31232CFD097D9B276373300F /* RxSSDP-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "RxSSDP-watchOS.modulemap"; path = "../RxSSDP-watchOS/RxSSDP-watchOS.modulemap"; sourceTree = "<group>"; };
 		E7B347AE95EE5BE5476405F6A50C0E46 /* RxSSDP-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RxSSDP-tvOS-dummy.m"; path = "../RxSSDP-tvOS/RxSSDP-tvOS-dummy.m"; sourceTree = "<group>"; };
-		E818A54250831507878C519E6E370018 /* RxSSDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxSSDP.framework; path = "RxSSDP-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E818A54250831507878C519E6E370018 /* RxSSDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSSDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F1122A73E606C346C2522CCFE9DAD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../RxAtomic-watchOS/Info.plist"; sourceTree = "<group>"; };
 		E9B3B0DF3C7474DA352F4CCA7036F63C /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = Platform/DataStructures/Queue.swift; sourceTree = "<group>"; };
 		EAA55ECC86BD4D18E0FF5E421A5C7858 /* Using.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Using.swift; path = RxSwift/Observables/Using.swift; sourceTree = "<group>"; };
-		ECB1E6931552EEECC457ED57281705B8 /* RxAtomic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxAtomic.framework; path = "RxAtomic-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED138F6A590B35FAE77B2F00986B1E14 /* RxAtomic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxAtomic.framework; path = "RxAtomic-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB1E6931552EEECC457ED57281705B8 /* RxAtomic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxAtomic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED138F6A590B35FAE77B2F00986B1E14 /* RxAtomic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxAtomic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED299D58506C6CF8848F5BF7D8A1C889 /* RefCountDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RefCountDisposable.swift; path = RxSwift/Disposables/RefCountDisposable.swift; sourceTree = "<group>"; };
 		EEF49D0C04A552F0AA1204131F1C30A9 /* Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debug.swift; path = RxSwift/Observables/Debug.swift; sourceTree = "<group>"; };
 		EF322FD5AB31C79BABDCECA55CA28333 /* Cancelable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cancelable.swift; path = RxSwift/Cancelable.swift; sourceTree = "<group>"; };
@@ -1741,7 +1741,6 @@
 				66C9C1B3DC638D912AEDDDDDC676141E /* Zip+Collection.swift */,
 				2E5C5AB5A552176906949AE26B020D77 /* Support Files */,
 			);
-			name = RxSwift;
 			path = RxSwift;
 			sourceTree = "<group>";
 		};
@@ -1814,7 +1813,6 @@
 				19019EF7BCCD249B87B06395ECE75624 /* RunLoopLock.swift */,
 				8CEA46BA326A41A7D1110928D2165A96 /* Support Files */,
 			);
-			name = RxBlocking;
 			path = RxBlocking;
 			sourceTree = "<group>";
 		};
@@ -1967,7 +1965,6 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
@@ -2070,7 +2067,6 @@
 				A9065A816EE839C0BA778FBE443C0A9B /* RxAtomic.h */,
 				5BDBD317BBA23E877C360A85F0034A49 /* Support Files */,
 			);
-			name = RxAtomic;
 			path = RxAtomic;
 			sourceTree = "<group>";
 		};
@@ -2643,13 +2639,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -3830,64 +3827,33 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		036642EBED0F4B8F54B32F680C4BA27E /* Debug */ = {
+		00DB4FBD5BEFED946ECF42C8232CDDE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E4EFFEDA9799248A09381CC07DAC4EE /* RxSSDP-iOS.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxSSDP-iOS/RxSSDP-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxSSDP-iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RxSSDP-iOS/RxSSDP-iOS.modulemap";
-				PRODUCT_MODULE_NAME = RxSSDP;
-				PRODUCT_NAME = RxSSDP;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		05E1BB424ED729CD177151952C1EFEA0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 442382E9EE817515655CE985EBA21BBE /* RxSSDP-tvOS.xcconfig */;
+			baseConfigurationReference = C04757C30ECA0CD1269201C5129A356A /* RxSwift-macOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxSSDP-tvOS/RxSSDP-tvOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxSSDP-tvOS/Info.plist";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/RxSwift-macOS/RxSwift-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxSwift-macOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RxSSDP-tvOS/RxSSDP-tvOS.modulemap";
-				PRODUCT_MODULE_NAME = RxSSDP;
-				PRODUCT_NAME = RxSSDP;
-				SDKROOT = appletvos;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/RxSwift-macOS/RxSwift-macOS.modulemap";
+				PRODUCT_MODULE_NAME = RxSwift;
+				PRODUCT_NAME = RxSwift;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -3928,102 +3894,6 @@
 			};
 			name = Release;
 		};
-		09A383412BBDF8E42FD1BD58B04156A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FD03D821140B5F5A53274EE1AC6EE7C /* RxAtomic-macOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/RxAtomic-macOS/RxAtomic-macOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxAtomic-macOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/RxAtomic-macOS/RxAtomic-macOS.modulemap";
-				PRODUCT_MODULE_NAME = RxAtomic;
-				PRODUCT_NAME = RxAtomic;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		0AC2720CFF05235A9AC97242931C07BC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DB6819C8BE74C2AE68C82238BDBF608 /* RxSSDP-macOS.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/RxSSDP-macOS/RxSSDP-macOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxSSDP-macOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MODULEMAP_FILE = "Target Support Files/RxSSDP-macOS/RxSSDP-macOS.modulemap";
-				PRODUCT_MODULE_NAME = RxSSDP;
-				PRODUCT_NAME = RxSSDP;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		0C4B954A958BABCC5BCF77B37A6C5093 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53D75F57AD27BDE01D4927C2A6E3562E /* RxBlocking.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxBlocking/RxBlocking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxBlocking/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RxBlocking/RxBlocking.modulemap";
-				PRODUCT_MODULE_NAME = RxBlocking;
-				PRODUCT_NAME = RxBlocking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		151E614B626D34398DD255CD9A68504D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FE11977F04607707BA94E3D47A49FDA5 /* Pods-RxSSDPTests.debug.xcconfig */;
@@ -4058,9 +3928,9 @@
 			};
 			name = Debug;
 		};
-		175A3A9E1BC81D0514628DD4737C6E24 /* Debug */ = {
+		1C2F15CBDB03B18D1E896A83F9C0BA7E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E22B79CC7FC53C3D4629DB82678665A /* RxAtomic-watchOS.xcconfig */;
+			baseConfigurationReference = C196F32757B18EB9098AF660E2AF3443 /* RxSwift-watchOS.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -4072,17 +3942,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxAtomic-watchOS/RxAtomic-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxAtomic-watchOS/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RxSwift-watchOS/RxSwift-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxSwift-watchOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RxAtomic-watchOS/RxAtomic-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = RxAtomic;
-				PRODUCT_NAME = RxAtomic;
+				MODULEMAP_FILE = "Target Support Files/RxSwift-watchOS/RxSwift-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = RxSwift;
+				PRODUCT_NAME = RxSwift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -4125,9 +3995,74 @@
 			};
 			name = Debug;
 		};
-		24C930ED6CED3FC6F49685D825E4205A /* Debug */ = {
+		2823BE13D75A4979A256603FB18E3B23 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43EC0FE13098771617C1506B701F6AF4 /* RxAtomic-iOS.xcconfig */;
+			baseConfigurationReference = 0FD03D821140B5F5A53274EE1AC6EE7C /* RxAtomic-macOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/RxAtomic-macOS/RxAtomic-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxAtomic-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/RxAtomic-macOS/RxAtomic-macOS.modulemap";
+				PRODUCT_MODULE_NAME = RxAtomic;
+				PRODUCT_NAME = RxAtomic;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C87D762EFE652C9DB2941D12A4EE013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E4EFFEDA9799248A09381CC07DAC4EE /* RxSSDP-iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxSSDP-iOS/RxSSDP-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxSSDP-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RxSSDP-iOS/RxSSDP-iOS.modulemap";
+				PRODUCT_MODULE_NAME = RxSSDP;
+				PRODUCT_NAME = RxSSDP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2DE3519AF8AA2D0F9DE90E838F569A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53D75F57AD27BDE01D4927C2A6E3562E /* RxBlocking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4138,23 +4073,56 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxAtomic-iOS/RxAtomic-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxAtomic-iOS/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RxBlocking/RxBlocking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxBlocking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RxAtomic-iOS/RxAtomic-iOS.modulemap";
-				PRODUCT_MODULE_NAME = RxAtomic;
-				PRODUCT_NAME = RxAtomic;
+				MODULEMAP_FILE = "Target Support Files/RxBlocking/RxBlocking.modulemap";
+				PRODUCT_MODULE_NAME = RxBlocking;
+				PRODUCT_NAME = RxBlocking;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		36161EE1A21C7400D99B104348082AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDD259B1A3E5B1BC9AEC1F43C8EE4E41 /* RxSSDP-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxSSDP-watchOS/RxSSDP-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxSSDP-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RxSSDP-watchOS/RxSSDP-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = RxSSDP;
+				PRODUCT_NAME = RxSSDP;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
 		};
 		3AE9CDA4F320E7F09FCFAA1A30060D79 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -4189,9 +4157,9 @@
 			};
 			name = Debug;
 		};
-		3BE832C39E51249D5A0F1DCC1780A780 /* Release */ = {
+		3B5625A84318558769ECA10FD8A9EB4F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89F959BD39C072EE7D81996FCB1BE3C5 /* RxSwift-tvOS.xcconfig */;
+			baseConfigurationReference = 407F26309089E61308317F6A5B5F75D5 /* RxAtomic-tvOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4202,17 +4170,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxSwift-tvOS/RxSwift-tvOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxSwift-tvOS/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RxAtomic-tvOS/RxAtomic-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxAtomic-tvOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RxSwift-tvOS/RxSwift-tvOS.modulemap";
-				PRODUCT_MODULE_NAME = RxSwift;
-				PRODUCT_NAME = RxSwift;
+				MODULEMAP_FILE = "Target Support Files/RxAtomic-tvOS/RxAtomic-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = RxAtomic;
+				PRODUCT_NAME = RxAtomic;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
@@ -4221,10 +4189,11 @@
 			};
 			name = Release;
 		};
-		3F1594BCEB20F39016148A45CC228651 /* Release */ = {
+		43067C654D3042E755A8791C006E0D2E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43EC0FE13098771617C1506B701F6AF4 /* RxAtomic-iOS.xcconfig */;
+			baseConfigurationReference = BDD259B1A3E5B1BC9AEC1F43C8EE4E41 /* RxSSDP-watchOS.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -4234,56 +4203,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxAtomic-iOS/RxAtomic-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxAtomic-iOS/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RxSSDP-watchOS/RxSSDP-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxSSDP-watchOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RxAtomic-iOS/RxAtomic-iOS.modulemap";
-				PRODUCT_MODULE_NAME = RxAtomic;
-				PRODUCT_NAME = RxAtomic;
-				SDKROOT = iphoneos;
+				MODULEMAP_FILE = "Target Support Files/RxSSDP-watchOS/RxSSDP-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = RxSSDP;
+				PRODUCT_NAME = RxSSDP;
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
-			name = Release;
-		};
-		48BD7135D661B098A72B17B32FE5F0F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C04757C30ECA0CD1269201C5129A356A /* RxSwift-macOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/RxSwift-macOS/RxSwift-macOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxSwift-macOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/RxSwift-macOS/RxSwift-macOS.modulemap";
-				PRODUCT_MODULE_NAME = RxSwift;
-				PRODUCT_NAME = RxSwift;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 		4C00E1138F98555D9CA181A7E17FD871 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -4320,6 +4256,39 @@
 			};
 			name = Release;
 		};
+		4C0FDDDC0C3D872271DFC6C97EBA1B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB6819C8BE74C2AE68C82238BDBF608 /* RxSSDP-macOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/RxSSDP-macOS/RxSSDP-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxSSDP-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/RxSSDP-macOS/RxSSDP-macOS.modulemap";
+				PRODUCT_MODULE_NAME = RxSSDP;
+				PRODUCT_NAME = RxSSDP;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		4C7497734A654DEA6C5A084AEEF7C8A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D3BEC22B09728AC5D308CC4AAE2795A5 /* Pods-RxSSDP.debug.xcconfig */;
@@ -4351,38 +4320,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4E6129475D6A45FE566AD77565C856A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDD259B1A3E5B1BC9AEC1F43C8EE4E41 /* RxSSDP-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxSSDP-watchOS/RxSSDP-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxSSDP-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RxSSDP-watchOS/RxSSDP-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = RxSSDP;
-				PRODUCT_NAME = RxSSDP;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Debug;
 		};
@@ -4421,10 +4358,11 @@
 			};
 			name = Release;
 		};
-		620F1C0A0A1C391E27A3591A673B48E7 /* Release */ = {
+		539A12207BCBA226B5E8117E95064197 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53D75F57AD27BDE01D4927C2A6E3562E /* RxBlocking.xcconfig */;
+			baseConfigurationReference = 8E22B79CC7FC53C3D4629DB82678665A /* RxAtomic-watchOS.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -4434,22 +4372,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxBlocking/RxBlocking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxBlocking/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RxAtomic-watchOS/RxAtomic-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxAtomic-watchOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RxBlocking/RxBlocking.modulemap";
-				PRODUCT_MODULE_NAME = RxBlocking;
-				PRODUCT_NAME = RxBlocking;
-				SDKROOT = iphoneos;
+				MODULEMAP_FILE = "Target Support Files/RxAtomic-watchOS/RxAtomic-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = RxAtomic;
+				PRODUCT_NAME = RxAtomic;
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
@@ -4487,9 +4425,9 @@
 			};
 			name = Debug;
 		};
-		7FB88D9055BB1E8161C70B8C6838D836 /* Release */ = {
+		82AABD9A851C783558152DFB264D148A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDD259B1A3E5B1BC9AEC1F43C8EE4E41 /* RxSSDP-watchOS.xcconfig */;
+			baseConfigurationReference = C196F32757B18EB9098AF660E2AF3443 /* RxSwift-watchOS.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -4501,22 +4439,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxSSDP-watchOS/RxSSDP-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxSSDP-watchOS/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RxSwift-watchOS/RxSwift-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxSwift-watchOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RxSSDP-watchOS/RxSSDP-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = RxSSDP;
-				PRODUCT_NAME = RxSSDP;
+				MODULEMAP_FILE = "Target Support Files/RxSwift-watchOS/RxSwift-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = RxSwift;
+				PRODUCT_NAME = RxSwift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
@@ -4524,6 +4462,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -4589,7 +4528,7 @@
 			};
 			name = Debug;
 		};
-		8852F4DEA235E1C866B232B83048D38F /* Release */ = {
+		86F57F51F8ED976EC92EE958590414B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0FD03D821140B5F5A53274EE1AC6EE7C /* RxAtomic-macOS.xcconfig */;
 			buildSettings = {
@@ -4615,17 +4554,16 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		8984858B37A563554B827D2D28B26840 /* Release */ = {
+		8A3952D5EAEB479A81691178F6196500 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E4EFFEDA9799248A09381CC07DAC4EE /* RxSSDP-iOS.xcconfig */;
+			baseConfigurationReference = 53D75F57AD27BDE01D4927C2A6E3562E /* RxBlocking.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -4635,19 +4573,114 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxSSDP-iOS/RxSSDP-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxSSDP-iOS/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RxBlocking/RxBlocking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxBlocking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RxSSDP-iOS/RxSSDP-iOS.modulemap";
-				PRODUCT_MODULE_NAME = RxSSDP;
-				PRODUCT_NAME = RxSSDP;
+				MODULEMAP_FILE = "Target Support Files/RxBlocking/RxBlocking.modulemap";
+				PRODUCT_MODULE_NAME = RxBlocking;
+				PRODUCT_NAME = RxBlocking;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B0C5B3C599B0386DCF3BE65B0B62432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 442382E9EE817515655CE985EBA21BBE /* RxSSDP-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxSSDP-tvOS/RxSSDP-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxSSDP-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RxSSDP-tvOS/RxSSDP-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = RxSSDP;
+				PRODUCT_NAME = RxSSDP;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D182BEA313AFFACABF827B2227339BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD6F3C82716C61D98CB6BC2D4142B0CB /* RxSwift-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxSwift-iOS/RxSwift-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxSwift-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RxSwift-iOS/RxSwift-iOS.modulemap";
+				PRODUCT_MODULE_NAME = RxSwift;
+				PRODUCT_NAME = RxSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90049BAE3D70D8B9FEC2E9ECBEE62B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F959BD39C072EE7D81996FCB1BE3C5 /* RxSwift-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxSwift-tvOS/RxSwift-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxSwift-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RxSwift-tvOS/RxSwift-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = RxSwift;
+				PRODUCT_NAME = RxSwift;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -4724,9 +4757,9 @@
 			};
 			name = Release;
 		};
-		9A7B661417020DDBF4018097EE3248CA /* Debug */ = {
+		A419E7A1919FC6E18211837B68F0C4AA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD6F3C82716C61D98CB6BC2D4142B0CB /* RxSwift-iOS.xcconfig */;
+			baseConfigurationReference = 442382E9EE817515655CE985EBA21BBE /* RxSSDP-tvOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4737,213 +4770,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxSwift-iOS/RxSwift-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxSwift-iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RxSwift-iOS/RxSwift-iOS.modulemap";
-				PRODUCT_MODULE_NAME = RxSwift;
-				PRODUCT_NAME = RxSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A2DAB5D5DD0C3DF324879F1551DEA488 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C196F32757B18EB9098AF660E2AF3443 /* RxSwift-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxSwift-watchOS/RxSwift-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxSwift-watchOS/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RxSSDP-tvOS/RxSSDP-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxSSDP-tvOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RxSwift-watchOS/RxSwift-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = RxSwift;
-				PRODUCT_NAME = RxSwift;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Debug;
-		};
-		A33DE7481830C2CF4A9F53AF826FC3CC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C196F32757B18EB9098AF660E2AF3443 /* RxSwift-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxSwift-watchOS/RxSwift-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxSwift-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RxSwift-watchOS/RxSwift-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = RxSwift;
-				PRODUCT_NAME = RxSwift;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Release;
-		};
-		A46AFFB92EE09C61CBB226E775518E1A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C04757C30ECA0CD1269201C5129A356A /* RxSwift-macOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/RxSwift-macOS/RxSwift-macOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxSwift-macOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/RxSwift-macOS/RxSwift-macOS.modulemap";
-				PRODUCT_MODULE_NAME = RxSwift;
-				PRODUCT_NAME = RxSwift;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AB31FE48FF838FD26F2EC7A1294DAF11 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 407F26309089E61308317F6A5B5F75D5 /* RxAtomic-tvOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxAtomic-tvOS/RxAtomic-tvOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxAtomic-tvOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RxAtomic-tvOS/RxAtomic-tvOS.modulemap";
-				PRODUCT_MODULE_NAME = RxAtomic;
-				PRODUCT_NAME = RxAtomic;
+				MODULEMAP_FILE = "Target Support Files/RxSSDP-tvOS/RxSSDP-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = RxSSDP;
+				PRODUCT_NAME = RxSSDP;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ADE44EC464724607293604746EFD9626 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E22B79CC7FC53C3D4629DB82678665A /* RxAtomic-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxAtomic-watchOS/RxAtomic-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxAtomic-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RxAtomic-watchOS/RxAtomic-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = RxAtomic;
-				PRODUCT_NAME = RxAtomic;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Release;
-		};
-		B72F57F661BE5B71E107C1119BE7A120 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DB6819C8BE74C2AE68C82238BDBF608 /* RxSSDP-macOS.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/RxSSDP-macOS/RxSSDP-macOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxSSDP-macOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MODULEMAP_FILE = "Target Support Files/RxSSDP-macOS/RxSSDP-macOS.modulemap";
-				PRODUCT_MODULE_NAME = RxSSDP;
-				PRODUCT_NAME = RxSSDP;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -4987,6 +4826,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -5039,8 +4879,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 				TVOS_DEPLOYMENT_TARGET = 12.0;
@@ -5048,7 +4887,39 @@
 			};
 			name = Release;
 		};
-		C7DB125E22B5327A8CA11D78E94D4D72 /* Debug */ = {
+		BD948DF4220701371A3A8A26B6C3EB98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E22B79CC7FC53C3D4629DB82678665A /* RxAtomic-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxAtomic-watchOS/RxAtomic-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxAtomic-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RxAtomic-watchOS/RxAtomic-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = RxAtomic;
+				PRODUCT_NAME = RxAtomic;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		C124F8B277234888088448189EEEFC7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89F959BD39C072EE7D81996FCB1BE3C5 /* RxSwift-tvOS.xcconfig */;
 			buildSettings = {
@@ -5071,7 +4942,133 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C337F42DB0B081DB274B9289FFFBB216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E4EFFEDA9799248A09381CC07DAC4EE /* RxSSDP-iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxSSDP-iOS/RxSSDP-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxSSDP-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RxSSDP-iOS/RxSSDP-iOS.modulemap";
+				PRODUCT_MODULE_NAME = RxSSDP;
+				PRODUCT_NAME = RxSSDP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDDBD398164FF893356F0ACBEA13EFA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43EC0FE13098771617C1506B701F6AF4 /* RxAtomic-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxAtomic-iOS/RxAtomic-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxAtomic-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RxAtomic-iOS/RxAtomic-iOS.modulemap";
+				PRODUCT_MODULE_NAME = RxAtomic;
+				PRODUCT_NAME = RxAtomic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE3D69EE4B39DF1032F5E03923FFFBB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C04757C30ECA0CD1269201C5129A356A /* RxSwift-macOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/RxSwift-macOS/RxSwift-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxSwift-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/RxSwift-macOS/RxSwift-macOS.modulemap";
+				PRODUCT_MODULE_NAME = RxSwift;
+				PRODUCT_NAME = RxSwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7DFD663F6AD7F2AEAA2417563D4FD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 407F26309089E61308317F6A5B5F75D5 /* RxAtomic-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxAtomic-tvOS/RxAtomic-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxAtomic-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RxAtomic-tvOS/RxAtomic-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = RxAtomic;
+				PRODUCT_NAME = RxAtomic;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -5147,70 +5144,6 @@
 			};
 			name = Release;
 		};
-		DED41255D74ACCBCDE1E0B654C44C9A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 442382E9EE817515655CE985EBA21BBE /* RxSSDP-tvOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxSSDP-tvOS/RxSSDP-tvOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxSSDP-tvOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RxSSDP-tvOS/RxSSDP-tvOS.modulemap";
-				PRODUCT_MODULE_NAME = RxSSDP;
-				PRODUCT_NAME = RxSSDP;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E8DC815CA85FBD86156372F082927E51 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 407F26309089E61308317F6A5B5F75D5 /* RxAtomic-tvOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxAtomic-tvOS/RxAtomic-tvOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxAtomic-tvOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RxAtomic-tvOS/RxAtomic-tvOS.modulemap";
-				PRODUCT_MODULE_NAME = RxAtomic;
-				PRODUCT_NAME = RxAtomic;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		EC30124DCABC8E055F3F9C7FA93F18C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B6AC3158CE721CBE551E75D8F7D8A7D /* Pods-Watch Sample App.release.xcconfig */;
@@ -5246,7 +5179,40 @@
 			};
 			name = Release;
 		};
-		EDBAFCBCB1979A4FD6F395E69981C0CD /* Release */ = {
+		F5222CA4E6DB3494BE57B7BF3D493C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB6819C8BE74C2AE68C82238BDBF608 /* RxSSDP-macOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/RxSSDP-macOS/RxSSDP-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxSSDP-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/RxSSDP-macOS/RxSSDP-macOS.modulemap";
+				PRODUCT_MODULE_NAME = RxSSDP;
+				PRODUCT_NAME = RxSSDP;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9438DDA04081DDFF86E1A983695FF1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD6F3C82716C61D98CB6BC2D4142B0CB /* RxSwift-iOS.xcconfig */;
 			buildSettings = {
@@ -5270,7 +5236,39 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDC25A7C2EFE431499516082C1AE1B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43EC0FE13098771617C1506B701F6AF4 /* RxAtomic-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxAtomic-iOS/RxAtomic-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxAtomic-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RxAtomic-iOS/RxAtomic-iOS.modulemap";
+				PRODUCT_MODULE_NAME = RxAtomic;
+				PRODUCT_NAME = RxAtomic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -5293,8 +5291,8 @@
 		01D16BBDB22AD01E836F6438ED2ECDEF /* Build configuration list for PBXNativeTarget "RxSwift-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A46AFFB92EE09C61CBB226E775518E1A /* Debug */,
-				48BD7135D661B098A72B17B32FE5F0F3 /* Release */,
+				00DB4FBD5BEFED946ECF42C8232CDDE8 /* Debug */,
+				CE3D69EE4B39DF1032F5E03923FFFBB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5302,8 +5300,8 @@
 		122FBB288B2950CAFB43933653A94DBB /* Build configuration list for PBXNativeTarget "RxBlocking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C4B954A958BABCC5BCF77B37A6C5093 /* Debug */,
-				620F1C0A0A1C391E27A3591A673B48E7 /* Release */,
+				2DE3519AF8AA2D0F9DE90E838F569A24 /* Debug */,
+				8A3952D5EAEB479A81691178F6196500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5329,8 +5327,8 @@
 		306CF702934957D514BAFE32586D69D6 /* Build configuration list for PBXNativeTarget "RxSSDP-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05E1BB424ED729CD177151952C1EFEA0 /* Debug */,
-				DED41255D74ACCBCDE1E0B654C44C9A6 /* Release */,
+				A419E7A1919FC6E18211837B68F0C4AA /* Debug */,
+				8B0C5B3C599B0386DCF3BE65B0B62432 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5338,8 +5336,8 @@
 		3291EC67AA4EF3ABFDA3C695478A739B /* Build configuration list for PBXNativeTarget "RxSwift-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A2DAB5D5DD0C3DF324879F1551DEA488 /* Debug */,
-				A33DE7481830C2CF4A9F53AF826FC3CC /* Release */,
+				1C2F15CBDB03B18D1E896A83F9C0BA7E /* Debug */,
+				82AABD9A851C783558152DFB264D148A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5365,8 +5363,8 @@
 		5799FED73E343B114817C56015AB9D6E /* Build configuration list for PBXNativeTarget "RxSSDP-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				036642EBED0F4B8F54B32F680C4BA27E /* Debug */,
-				8984858B37A563554B827D2D28B26840 /* Release */,
+				C337F42DB0B081DB274B9289FFFBB216 /* Debug */,
+				2C87D762EFE652C9DB2941D12A4EE013 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5374,8 +5372,8 @@
 		6D967C98F14434EAFEAA979F424C9363 /* Build configuration list for PBXNativeTarget "RxSSDP-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B72F57F661BE5B71E107C1119BE7A120 /* Debug */,
-				0AC2720CFF05235A9AC97242931C07BC /* Release */,
+				4C0FDDDC0C3D872271DFC6C97EBA1B13 /* Debug */,
+				F5222CA4E6DB3494BE57B7BF3D493C51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5392,8 +5390,8 @@
 		9254349095621B18F2634798068C9D30 /* Build configuration list for PBXNativeTarget "RxSwift-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A7B661417020DDBF4018097EE3248CA /* Debug */,
-				EDBAFCBCB1979A4FD6F395E69981C0CD /* Release */,
+				8D182BEA313AFFACABF827B2227339BE /* Debug */,
+				F9438DDA04081DDFF86E1A983695FF1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5401,8 +5399,8 @@
 		972FAB54C80BEE8F76065AD7380C5F67 /* Build configuration list for PBXNativeTarget "RxAtomic-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB31FE48FF838FD26F2EC7A1294DAF11 /* Debug */,
-				E8DC815CA85FBD86156372F082927E51 /* Release */,
+				D7DFD663F6AD7F2AEAA2417563D4FD1E /* Debug */,
+				3B5625A84318558769ECA10FD8A9EB4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5410,8 +5408,8 @@
 		A7C64A07160667DF68553572CEECD962 /* Build configuration list for PBXNativeTarget "RxSwift-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7DB125E22B5327A8CA11D78E94D4D72 /* Debug */,
-				3BE832C39E51249D5A0F1DCC1780A780 /* Release */,
+				C124F8B277234888088448189EEEFC7F /* Debug */,
+				90049BAE3D70D8B9FEC2E9ECBEE62B77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5428,8 +5426,8 @@
 		AF6C74166C53562BD30BDCC3B904229B /* Build configuration list for PBXNativeTarget "RxAtomic-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				24C930ED6CED3FC6F49685D825E4205A /* Debug */,
-				3F1594BCEB20F39016148A45CC228651 /* Release */,
+				CDDBD398164FF893356F0ACBEA13EFA2 /* Debug */,
+				FDC25A7C2EFE431499516082C1AE1B13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5446,8 +5444,8 @@
 		C9589A3275163E870CC1EF0F9A438831 /* Build configuration list for PBXNativeTarget "RxAtomic-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				175A3A9E1BC81D0514628DD4737C6E24 /* Debug */,
-				ADE44EC464724607293604746EFD9626 /* Release */,
+				BD948DF4220701371A3A8A26B6C3EB98 /* Debug */,
+				539A12207BCBA226B5E8117E95064197 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5455,8 +5453,8 @@
 		D6F8CA062A7B864C934D23633A95BAA3 /* Build configuration list for PBXNativeTarget "RxAtomic-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09A383412BBDF8E42FD1BD58B04156A8 /* Debug */,
-				8852F4DEA235E1C866B232B83048D38F /* Release */,
+				86F57F51F8ED976EC92EE958590414B5 /* Debug */,
+				2823BE13D75A4979A256603FB18E3B23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5464,8 +5462,8 @@
 		F961A08FA3CF9D192A5025D44A81EC8C /* Build configuration list for PBXNativeTarget "RxSSDP-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E6129475D6A45FE566AD77565C856A4 /* Debug */,
-				7FB88D9055BB1E8161C70B8C6838D836 /* Release */,
+				43067C654D3042E755A8791C006E0D2E /* Debug */,
+				36161EE1A21C7400D99B104348082AE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
