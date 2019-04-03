@@ -13,8 +13,8 @@ import Darwin
 
 // Addresses
 
-let INADDR_ANY = in_addr(s_addr: 0)
-let INADDR_BROADCAST = in_addr(s_addr: 0xffffffff)
+let inAddrAny = in_addr(s_addr: 0)
+let inAddrBroadcast = in_addr(s_addr: 0xffffffff)
 
 /// An object representing the UDP broadcast connection. Uses a dispatch source to handle the incoming traffic on the UDP socket.
 open class UDPBroadcastConnection {
@@ -44,7 +44,7 @@ open class UDPBroadcastConnection {
             sin_len: __uint8_t(MemoryLayout<sockaddr_in>.size),
             sin_family: sa_family_t(AF_INET),
             sin_port: UDPBroadcastConnection.htonsPort(port: port),
-            sin_addr: INADDR_BROADCAST,
+            sin_addr: inAddrBroadcast,
             sin_zero: ( 0, 0, 0, 0, 0, 0, 0, 0 )
         )
         
@@ -227,8 +227,8 @@ open class UDPBroadcastConnection {
     // MARK: - Private
     private func setNoSigPipe(socket: CInt) {
         // prevents crashes when blocking calls are pending and the app is paused ( via Home button )
-        var no_sig_pipe: Int32 = 1
-        setsockopt(socket, SOL_SOCKET, SO_NOSIGPIPE, &no_sig_pipe, socklen_t(MemoryLayout<Int32>.size))
+        var noSigPipe: Int32 = 1
+        setsockopt(socket, SOL_SOCKET, SO_NOSIGPIPE, &noSigPipe, socklen_t(MemoryLayout<Int32>.size))
     }
     
     private class func htonsPort(port: in_port_t) -> in_port_t {
