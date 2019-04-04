@@ -11,22 +11,20 @@ env:
   matrix:
     - DESTINATION="platform=iOS Simulator,name=iPhone XS"
 
-jobs:
-  include:
-    - stage: lint
-      script:
-        - ./Pods/SwiftLint/swiftlint
+stages:
+  - name: lint
+    script:
+      - ./Pods/SwiftLint/swiftlint
 
-    - stage: test
-      script:
-        - set -o pipefail
-        - xcodebuild -version
-        - xcodebuild -showsdks
-        - xcodebuild clean -workspace "$WORKSPACE" -scheme "$SCHEME" | xcpretty
-        - xcodebuild test -workspace "$WORKSPACE" -scheme "$SCHEME" -destination "$DESTINATION" | xcpretty
+  - name: test
+    script:
+      - set -o pipefail
+      - xcodebuild -version
+      - xcodebuild -showsdks
+      - xcodebuild clean -workspace "$WORKSPACE" -scheme "$SCHEME" | xcpretty
+      - xcodebuild test -workspace "$WORKSPACE" -scheme "$SCHEME" -destination "$DESTINATION" | xcpretty
 
-    - stage: deploy
-      script:
-        - pod trunk push
-      on:
-        tags: true
+  - name: deploy
+    if: branch = master
+    script:
+      - pod trunk push
