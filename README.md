@@ -1,6 +1,7 @@
 # RxSSDP
 
 [![Swift 5.0](https://img.shields.io/badge/swift-5.0-orange.svg?style=flat)](https://swift.org)
+[![Travis Badge](https://api.travis-ci.org/stefanrenne/RxSSDP.svg?branch=master)](https://travis-ci.org/stefanrenne/RxSSDP)
 [![Version](https://img.shields.io/cocoapods/v/RxSSDP.svg?style=flat)](http://cocoapods.org/pods/RxSSDP)
 [![License](https://img.shields.io/cocoapods/l/RxSSDP.svg?style=flat)](http://cocoapods.org/pods/RxSSDP)
 [![Platform](https://img.shields.io/cocoapods/p/RxSSDP.svg?style=flat)](http://cocoapods.org/pods/RxSSDP)
