@@ -16,7 +16,7 @@ env:
 
 install:
   - git config --add diff.renamelimit 0
-  - pod install
+  - pod install --repo-update
 
 jobs:
   include:

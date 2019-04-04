@@ -1,6 +1,6 @@
 {
   "name": "RxSSDP",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "license": {
     "type": "Apache-2.0"
   },
@@ -11,9 +11,9 @@
   "summary": "A clean reactive SSDP client, based on UDPBroadcastConnection",
   "source": {
     "git": "https://github.com/stefanrenne/RxSSDP.git",
-    "tag": "5.0.0"
+    "tag": "5.0.1"
   },
-  "swift_version": "5.1",
+  "swift_version": "5.0",
   "platforms": {
     "ios": "10.0",
     "tvos": "10.0",
