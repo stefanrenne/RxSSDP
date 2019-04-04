@@ -17,3 +17,8 @@ script:
   - xcodebuild -showsdks
   - xcodebuild clean -workspace "$WORKSPACE" -scheme "$SCHEME" | xcpretty
   - xcodebuild test -workspace "$WORKSPACE" -scheme "$SCHEME" -destination "$DESTINATION" | xcpretty
+deploy:
+  provider: script
+  script: ./scripts/push.sh
+  on:
+    tags: true
