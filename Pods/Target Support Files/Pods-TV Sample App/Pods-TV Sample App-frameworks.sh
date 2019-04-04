@@ -143,12 +143,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/RxAtomic-tvOS/RxAtomic.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxSwift-tvOS/RxSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxSSDP-tvOS/RxSSDP.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/RxAtomic-tvOS/RxAtomic.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxSwift-tvOS/RxSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxSSDP-tvOS/RxSSDP.framework"
 fi

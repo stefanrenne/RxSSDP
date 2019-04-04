@@ -15,7 +15,7 @@ public struct SSDPResponse: Codable {
         self.data = data
     }
     
-    subscript(index: String) -> String? {
+    public subscript(index: String) -> String? {
         return data[index]
     }
 }
