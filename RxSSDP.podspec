@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.authors                = { 'Stefan Renne' => 'info@stefanrenne.nl' }
   spec.summary                = 'A clean reactive SSDP client, based on UDPBroadcastConnection'
   spec.source                 = { :git => 'https://github.com/stefanrenne/RxSSDP.git', :tag => spec.version.to_s }
-  spec.swift_version          = '5.1'
+  spec.swift_version          = '5.0'
   spec.ios.deployment_target  = '10.0'
   spec.tvos.deployment_target  = '10.0'
   spec.osx.deployment_target  = '10.12'
