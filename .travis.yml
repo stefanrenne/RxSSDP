@@ -22,6 +22,6 @@ jobs:
         - xcodebuild clean -workspace "$WORKSPACE" -scheme "$SCHEME" | xcpretty
         - xcodebuild test -workspace "$WORKSPACE" -scheme "$SCHEME" -destination "$DESTINATION" | xcpretty
     - stage: deploy
-      if: branch = master
+      if: tag IS present
       script:
         - pod trunk push
