@@ -14,6 +14,9 @@ env:
   matrix:
     - DESTINATION="platform=iOS Simulator,name=iPhone XS"
 
+install:
+  - git config --add diff.renamelimit 0
+
 jobs:
   include:
     - stage: test
