@@ -30,4 +30,4 @@ jobs:
     - stage: deploy
       if: tag IS present
       script:
-        - pod trunk push
+        - pod trunk push --allow-warnings
