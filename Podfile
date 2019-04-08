@@ -1,5 +1,3 @@
-# Uncomment the next line to define a global platform for your project
-
 # Comment this line if you're not using Swift and don't want to use dynamic frameworks
 use_frameworks!
 
@@ -7,6 +5,8 @@ use_frameworks!
 inhibit_all_warnings!
 
 target 'RxSSDP' do
+  platform :ios, '10.0'
+  
   pod 'RxSwift', '~> 4.5'
   pod 'SwiftLint'
 
@@ -38,9 +38,11 @@ target 'TV Sample App' do
 end
 
 target 'Watch Sample App' do
+  platform :watchos, '4.0'
 end
 
 target 'Watch Sample App Extension' do
+  platform :watchos, '4.0'
 
   pod 'RxSwift', '~> 4.5'
   pod 'RxSSDP', :path => '.'

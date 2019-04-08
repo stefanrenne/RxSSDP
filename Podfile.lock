@@ -1,7 +1,7 @@
 PODS:
   - RxBlocking (4.5.0):
     - RxSwift (>= 4.4.2, ~> 4.4)
-  - RxSSDP (5.0.1):
+  - RxSSDP (5.0.2):
     - RxSwift (~> 4.5)
   - RxSwift (4.5.0)
   - SwiftLint (0.31.0)
@@ -24,10 +24,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   RxBlocking: 79413e4d916f44bb3e113c5b2cc059e36fe58910
-  RxSSDP: 83021acc94b686ac6a7f0a6f5680e4d7c194f743
+  RxSSDP: a9e97658df6e5dfe4de36175fa6bd766ac94a924
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
 
-PODFILE CHECKSUM: 1c51df7a315b16fb1f885495efff9f35e5715fc2
+PODFILE CHECKSUM: ad71acd14cddc2f706cae43260801d6e649bc8f5
 
 COCOAPODS: 1.5.3
