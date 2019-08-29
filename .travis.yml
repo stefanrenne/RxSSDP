@@ -16,3 +16,6 @@ env:
 
 before_script:
   - git config --add diff.renamelimit 0
+script:
+  - make clean
+  - make test
