@@ -27,7 +27,7 @@ open class SSDPSettings {
     /**
      * Maximum time the SSDP devices are bufferd
      */
-    public var maxBufferTime: RxTimeInterval = 6
+    public var maxBufferTime: RxTimeInterval = .seconds(6)
     
     /**
      * scheduler on which the search is being performed

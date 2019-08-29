@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                   = 'RxSSDP'
-  spec.version                = '5.0.2'
+  spec.version                = '5.0.3'
   spec.license                = { :type => 'Apache-2.0' }
   spec.homepage               = 'https://github.com/stefanrenne/RxSSDP'
   spec.authors                = { 'Stefan Renne' => 'info@stefanrenne.nl' }
@@ -13,5 +13,5 @@ Pod::Spec.new do |spec|
   spec.watchos.deployment_target = '4.0'
   spec.requires_arc           = true
   spec.source_files           = 'RxSSDP/*.swift', 'RxSSDP/SwiftSSDPClient/*.swift'
-  spec.dependency             'RxSwift', '~> 4.5'
+  spec.dependency             'RxSwift', '~> 5'
 end

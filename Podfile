@@ -7,33 +7,33 @@ inhibit_all_warnings!
 target 'RxSSDP' do
   platform :ios, '10.0'
   
-  pod 'RxSwift', '~> 4.5'
+  pod 'RxSwift', '~> 5'
   pod 'SwiftLint'
 
   target 'RxSSDPTests' do
     inherit! :search_paths
-    pod 'RxBlocking', '~> 4.5'
+    pod 'RxBlocking', '~> 5'
   end
 end
 
 target 'iOS Sample App' do
   platform :ios, '10.0'
 
-  pod 'RxSwift', '~> 4.5'
+  pod 'RxSwift', '~> 5'
   pod 'RxSSDP', :path => '.'
 end
 
 target 'Mac Sample App' do
   platform :osx, '10.14'
 
-  pod 'RxSwift', '~> 4.5'
+  pod 'RxSwift', '~> 5'
   pod 'RxSSDP', :path => '.'
 end
 
 target 'TV Sample App' do
   platform :tvos, '12.0'
 
-  pod 'RxSwift', '~> 4.5'
+  pod 'RxSwift', '~> 5'
   pod 'RxSSDP', :path => '.'
 end
 
@@ -44,6 +44,6 @@ end
 target 'Watch Sample App Extension' do
   platform :watchos, '4.0'
 
-  pod 'RxSwift', '~> 4.5'
+  pod 'RxSwift', '~> 5'
   pod 'RxSSDP', :path => '.'
 end

@@ -30,5 +30,18 @@ jobs:
         - xcodebuild test -workspace "$WORKSPACE" -scheme "$SCHEME" -destination "$DESTINATION" | xcpretty
     - stage: deploy
       if: tag IS present
-      script:
+      before_deploy:
+        - brew update
+        - brew outdated carthage || brew upgrade carthage
         - pod trunk push --allow-warnings
+        - carthage version
+        - carthage build --no-skip-current
+        - carthage archive RxSSDP
+      deploy:
+        provider: releases
+        api_key: $GITHUB_OAUTH_TOKEN
+        file: RxSSDP.framework.zip
+        skip_cleanup: true
+        on:
+          repo: stefanrenne/RxSSDP
+          tags: true
