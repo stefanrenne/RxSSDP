@@ -15,16 +15,18 @@ env:
 
 before_script:
   - git config --add diff.renamelimit 0
+
 before_deploy:
   - pod trunk push --allow-warnings
   - carthage version
   - carthage build --no-skip-current
   - carthage archive RxSSDP
+  
 deploy:
   provider: releases
   api_key: $GITHUB_OAUTH_TOKEN
   file: RxSSDP.framework.zip
   skip_cleanup: true
-    on:
-      repo: stefanrenne/RxSSDP
-      tags: true
+  on:
+    repo: stefanrenne/RxSSDP
+    tags: true
