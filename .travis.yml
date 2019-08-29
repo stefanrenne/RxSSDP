@@ -5,7 +5,6 @@ xcode_scheme: RxSSDP
 xcode_workspace: RxSSDP.xcworkspace
 xcode_destination: platform=iOS Simulator,name=iPhone XS
 podfile: Podfile
-cache: cocoapods
 env:
   global:
     - LC_CTYPE=en_US.UTF-8
@@ -16,6 +15,16 @@ env:
 
 before_script:
   - git config --add diff.renamelimit 0
-script:
-  - make clean
-  - make test
+before_deploy:
+- pod trunk push --allow-warnings
+- carthage version
+- carthage build --no-skip-current
+- carthage archive RxSSDP
+deploy:
+  provider: releases
+  api_key: $GITHUB_OAUTH_TOKEN
+  file: RxSSDP.framework.zip
+  skip_cleanup: true
+    on:
+      repo: stefanrenne/RxSSDP
+      tags: true
