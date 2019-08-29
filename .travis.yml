@@ -1,47 +1,18 @@
-language: objective-c
+language: swift
 os: osx
-osx_image: xcode10.2
+osx_image: xcode10.3
+xcode_scheme: RxSSDP
+xcode_workspace: RxSSDP.xcworkspace
+xcode_destination: platform=iOS Simulator,name=iPhone XS
+podfile: Podfile
 cache: cocoapods
 env:
   global:
     - LC_CTYPE=en_US.UTF-8
     - LANG=en_US.UTF-8
-    - WORKSPACE=RxSSDP.xcworkspace
-    - SCHEME=RxSSDP
     - EXPANDED_CODE_SIGN_IDENTITY=""
     - EXPANDED_CODE_SIGN_IDENTITY_NAME=""
     - EXPANDED_PROVISIONING_PROFILE=""
-  matrix:
-    - DESTINATION="platform=iOS Simulator,name=iPhone XS"
 
-install:
+before_script:
   - git config --add diff.renamelimit 0
-  - pod install --repo-update
-
-jobs:
-  include:
-    - stage: test
-      script:
-        - ./Pods/SwiftLint/swiftlint
-        - set -o pipefail
-        - xcodebuild -version
-        - xcodebuild -showsdks
-        - xcodebuild clean -workspace "$WORKSPACE" -scheme "$SCHEME" | xcpretty
-        - xcodebuild test -workspace "$WORKSPACE" -scheme "$SCHEME" -destination "$DESTINATION" | xcpretty
-    - stage: deploy
-      if: tag IS present
-      before_deploy:
-        - brew update
-        - brew outdated carthage || brew upgrade carthage
-        - pod trunk push --allow-warnings
-        - carthage version
-        - carthage build --no-skip-current
-        - carthage archive RxSSDP
-      deploy:
-        provider: releases
-        api_key: $GITHUB_OAUTH_TOKEN
-        file: RxSSDP.framework.zip
-        skip_cleanup: true
-        on:
-          repo: stefanrenne/RxSSDP
-          tags: true

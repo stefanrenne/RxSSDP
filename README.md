@@ -40,6 +40,11 @@ Inspect [SSDPSettings.swift](RxSSDP/SSDPSettings.swift), this class contains all
 pod 'RxSSDP', '~> 5.0'
 ```
 
+### Carthage
+
+```
+github "stefanrenne/RxSSDP" ~> 5.0
+```
 
 ## Testing
 
