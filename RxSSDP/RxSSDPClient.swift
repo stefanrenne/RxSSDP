@@ -49,7 +49,7 @@ class RxSSDPClient {
                 self.broadcastConnection.sendBroadcast(broadcast)
             }
             
-            return Disposables.create{
+            return Disposables.create {
                 self.broadcastConnection = nil
             }
         })
